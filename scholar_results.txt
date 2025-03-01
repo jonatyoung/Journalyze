@@ -1,0 +1,376 @@
+Improved baselines with visual instruction tuning
+Scaling instruction-finetuned language models
+Accurate structure prediction of biomolecular interactions with AlphaFold 3
+A survey on evaluation of large language models
+Non-cooperative games
+Methods of mathematical physics, volume 2
+The Fourth Industrial Revolution: what it means, how to respond1
+Nonlinear oscillations
+The society of the spectacle
+Wireless communications: principles and practice
+The gift: The form and reason for exchange in archaic societies
+Art as experience
+Balanis' Advanced Engineering Electromagnetics
+Geotechnical earthquake engineering
+The pure theory of public expenditure
+Capital: Critique of Political Economy, Volume 1
+A Discourse
+Health measurement scales: a practical guide to their development and use
+Powers of horror: An essay on abjection
+Models of teaching
+Navier–Stokes equations: theory and numerical analysis
+Ideology and ideological state apparatuses: Notes towards an investigation
+Cognitive therapy of depression
+Social capital: Its origins and applications in modern sociology
+Friction: An ethnography of global connection
+Thematic analysis
+Multivariate analysis
+Denial of death
+Epistemology of the closet, Updated with a new preface
+Democracy and education
+Stability in Competition1
+Statistical inference
+Discovering statistics using IBM SPSS statistics
+Educational research: Quantitative, qualitative, and mixed approaches
+Qualitative research methods: Collecting evidence, crafting analysis, communicating impact
+Formal concept analysis: mathematical foundations
+Perturbation methods
+Minimal information for studies of extracellular vesicles (MISEV2023): From basic to advanced approaches
+A treatise on money: the pure theory of money
+Existence of an equilibrium for a competitive economy
+Chatting and cheating: Ensuring academic integrity in the era of ChatGPT
+Metaphysics of morals
+Theses on feuerbach
+Analysis and design of analog integrated circuits
+Segment anything in medical images
+Ionization in the field of a strong electromagnetic wave
+Revolution in poetic language
+Grounding dino: Marrying dino with grounded pre-training for open-set object detection
+Radiative processes in astrophysics
+A phase 3, randomized, controlled trial of resmetirom in NASH with liver fibrosis
+Foundations of machine learning
+Yolov9: Learning what you want to learn using programmable gradient information
+Biochemistry (-2024)
+Lost in the middle: How language models use long contexts
+Detrs beat yolos on real-time object detection
+Dependency and development in Latin America
+Numerical methods for least squares problems
+How to conduct surveys: A step-by-step guide
+Fluid mechanics
+Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries
+Identifying and mitigating vulnerabilities in llm-integrated applications
+Poetics of relation
+Black holes, white dwarfs and neutron stars: the physics of compact objects
+Living a feminist life
+Qualitative psychology: A practical guide to research methods
+Reuters Institute digital news report 2024
+Shamanism: Archaic techniques of ecstasy
+Introduction to documentary
+Teachers as intellectuals: Toward a critical pedagogy of learning
+Southern Politics in State and Nation: with an Introduction by Alexander Heard
+Analyzing social networks
+The Utility Analysis of Choices Involving Risk1
+2023 ESC guidelines for the management of acute coronary syndromes: developed by the task force on the management of acute coronary syndromes of the …
+Dictionary learning for integrative, multimodal and scalable single-cell analysis
+The eyes of the skin: Architecture and the senses
+A Survey of Multimodel Large Language Models
+Interactive Tree of Life (iTOL) v6: recent updates to the phylogenetic tree display and annotation tool
+Depth anything: Unleashing the power of large-scale unlabeled data
+2023 ACC/AHA/ACCP/HRS guideline for the diagnosis and management of atrial fibrillation: a report of the American College of Cardiology/American Heart …
+The llama 3 herd of models
+Mixtral of experts
+Microstrip lines and slotlines
+Elements of the Philosophy of Right
+Logical quantum processor based on reconfigurable atom arrays
+The theatre and its double
+Quality function deployment: integrating customer requirements into product design
+All one needs to know about metaverse: A complete survey on technological singularity, virtual ecosystem, and research agenda
+Benchmarking: the search for industry best practices that lead to superior performance
+Mmmu: A massive multi-discipline multimodal understanding and reasoning benchmark for expert agi
+Differential geometry and symmetric spaces
+Biochar for environmental management: science, technology and implementation
+Explaining creativity: The science of human innovation
+Modern social politics in Britain and Sweden: From relief to income maintenance
+Cognition and categorization
+Microplastics and nanoplastics in atheromas and cardiovascular events
+AlphaFold Protein Structure Database in 2024: providing structure coverage for over 214 million protein sequences
+T2i-adapter: Learning adapters to dig out more controllable ability for text-to-image diffusion models
+Roformer: Enhanced transformer with rotary position embedding
+A survey on large language model based autonomous agents
+Reporting reliability, convergent and discriminant validity with structural equation modeling: A review and best-practice recommendations
+Mmbench: Is your multi-modal model an all-around player?
+Bevformer: learning bird's-eye-view representation from lidar-camera via spatiotemporal transformers
+Effects of semaglutide on chronic kidney disease in patients with type 2 diabetes
+2024 heart disease and stroke statistics: a report of US and global data from the American Heart Association
+Cancer statistics, 2024
+Awq: Activation-aware weight quantization for on-device llm compression and acceleration
+Discourse analysis
+Maps of narrative practice
+Speculative Everything, With a new preface by the authors: Design, Fiction, and Social Dreaming
+Understanding motivation and emotion
+Epidemiology: an introduction
+Beyond the nation-state: Functionalism and international organization
+Velocity of the escaped savings and financial liquidity on maximum mixed savings
+Primate adaptation and evolution
+Data analysis methods in physical oceanography
+Human, all too human: A book for free spirits
+The Fire Next Time; Nobody Knows My Name; No Name in the Street; The Devil Finds Work: Introduction by Eddie S. Glaude Jr.
+Patient-centered medicine: transforming the clinical method
+Graph of thoughts: Solving elaborate problems with large language models
+Advanced fitness assessment and exercise prescription
+Enfortumab vedotin and pembrolizumab in untreated advanced urothelial cancer
+Theories of surplus value
+A genomic mutational constraint map using variation in 76,156 human genomes
+Tools of the mind: The Vygotskian approach to early childhood education
+A comprehensive survey of continual learning: Theory, method and application
+Black sun: Depression and melancholia
+A note on the pure theory of consumer's behaviour
+Another puzzle: The growth in actively managed mutual funds
+Unifying large language models and knowledge graphs: A roadmap
+Natural resource scarcity, fossil fuel energy consumption, and total greenhouse gas emissions in top emitting countries
+Semaglutide in patients with obesity-related heart failure and type 2 diabetes
+A survey on large language model (llm) security and privacy: The good, the bad, and the ugly
+Scaling rectified flow transformers for high-resolution image synthesis
+Common method bias: It's bad, it's complex, it's widespread, and it's not easy to fix
+Solving olympiad geometry without human demonstrations
+4d gaussian splatting for real-time dynamic scene rendering
+How to win friends and influence people
+Alectinib in Resected ALK-Positive Non–Small-Cell Lung Cancer
+CD19 CAR T-cell therapy in autoimmune disease—a case series with follow-up
+The elegant universe: Superstrings, hidden dimensions, and the quest for the ultimate theory
+An occupational perspective of health
+Sharegpt4v: Improving large multi-modal models with better captions
+A SWOT analysis of ChatGPT: Implications for educational practice and research
+Harnessing the power of llms in practice: A survey on chatgpt and beyond
+The great escape: health, wealth, and the origins of inequality
+2. Diagnosis and Classification of Diabetes: Standards of Care in Diabetes—2024
+Fast and accurate protein structure search with Foldseek
+DrugBank 6.0: the DrugBank knowledgebase for 2024
+Occupational sources of stress: A review of the literature relating to coronary heart disease and mental ill health
+The interplay between microbial communities and soil properties
+How to Read a Paper: the Basics of Evidence-Based Healthcare
+The anatomy of market failure
+Towards a general-purpose foundation model for computational pathology
+mplug-owl2: Revolutionizing multi-modal large language model with modality collaboration
+The principles of political economy
+Cancer incidence and mortality in China, 2022
+Mathematical discoveries from program search with large language models
+Construction of 2D S‐scheme heterojunction photocatalyst
+Antennas and propagation for wireless communication systems
+Animate anyone: Consistent and controllable image-to-video synthesis for character animation
+Heterostructured BN@ Co‐C@ C endowing polyester composites excellent thermal conductivity and microwave absorption at C band
+Global incidence and mortality of severe fungal disease
+Introduction to educational research
+Hollow land: Israel's architecture of occupation
+Navigating the confluence of artificial intelligence and education for sustainable development in the era of industry 4.0: Challenges, opportunities, and ethical …
+Incompressible flow
+Chatgpt: The end of online exam integrity?
+The economics of health and health care
+The EMBL-EBI Job Dispatcher sequence analysis tools framework in 2024
+Issues and ethics in the helping professions
+GPT understands, too
+The world of organic agriculture. Statistics and emerging trends 2024
+Photons and atoms: introduction to quantum electrodynamics
+Generative ai
+Petrophysics: theory and practice of measuring reservoir rock and fluid transport properties
+The renewable energy role in the global energy Transformations
+Large language models for software engineering: A systematic literature review
+scGPT: toward building a foundation model for single-cell multi-omics using generative AI
+Culture, the media and the 'ideological effect'
+Towards generalist biomedical AI
+Interpreting black-box models: a review on explainable artificial intelligence
+Microaxial flow pump or standard care in infarct-related cardiogenic shock
+Fault tree handbook
+The arrangement between the sexes
+Progress and poverty
+The strategy and tactics of pricing
+Revisiting event-study designs: robust and efficient estimation
+The Laws of Returns Under Competitive Conditions1
+Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context
+Generalized biomolecular modeling and design with RoseTTAFold All-Atom
+Improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands
+Wonder3d: Single image to 3d using cross-domain diffusion
+Explainability for large language models: A survey
+Generalized out-of-distribution detection: A survey
+The symbolic challenge of contemporary movements
+Introduction to research-e-book: Understanding and applying multiple strategies
+Action research: Improving schools and empowering educators
+Mvbench: A comprehensive multi-modal video understanding benchmark
+SpectralGPT: Spectral remote sensing foundation model
+Clip-adapter: Better vision-language models with feature adapters
+Work in the 21st Century, with EEPUB Access: An Introduction to Industrial and Organizational Psychology
+MetaboAnalyst 6.0: towards a unified platform for metabolomics data processing, analysis and interpretation
+Practical gamma-ray spectrometry
+Non-coding RNAs in disease: from mechanisms to therapeutics
+Essentials of supply chain management
+Benchmarking large language models for news summarization
+Gpt-4 passes the bar exam
+Global incidence, prevalence, years lived with disability (YLDs), disability-adjusted life-years (DALYs), and healthy life expectancy (HALE) for 371 diseases …
+Pytorch 2: Faster machine learning through dynamic python bytecode transformation and graph compilation
+C-pack: Packed resources for general chinese embeddings
+Secure routing for mobile ad hoc networks
+The ethics of ChatGPT–Exploring the ethical issues of an emerging technology
+Infectious Diseases Society of America 2024 guidance on the treatment of antimicrobial-resistant gram-negative infections
+The chemistry of clay-organic reactions
+JASPAR 2024: 20th anniversary of the open-access database of transcription factor binding profiles
+Is Bitcoin a real currency? An economic appraisal
+NF-κB in biology and targeted therapy: new insights and translational implications
+Mechanisms controlling cellular and systemic iron homeostasis
+Community deployment of intermittent preventive treatment of malaria in pregnancy with sulfadoxine-pyrimethamine: a field guide
+From realpolitik to dingpolitik or how to make things public
+The Inner Game of Tennis: The Classic Guide to Peak Performance
+" do anything now": Characterizing and evaluating in-the-wild jailbreak prompts on large language models
+Principles of philosophy
+Finerenone in heart failure with mildly reduced or preserved ejection fraction
+Sugar: Surface-aligned gaussian splatting for efficient 3d mesh reconstruction and high-quality mesh rendering
+The economics of biodiversity
+Recent advancement and assessment of green hydrogen production technologies
+The rise of ChatGPT: Exploring its potential in medical education
+The bitcoin backbone protocol: Analysis and applications
+Bifunctional electrocatalysts for overall and hybrid water splitting
+GPT-4 technical report
+The world of late antiquity: AD 150-750
+Fiber optic sensors: an introduction for engineers and scientists
+Eyes wide shut? exploring the visual shortcomings of multimodal llms
+Life span motor development
+Repurposing diffusion-based image generators for monocular depth estimation
+Wayward lives, beautiful experiments: Intimate histories of social upheaval
+Let your life speak: Listening for the voice of vocation
+Non-fullerene acceptor with asymmetric structure and phenyl-substituted alkyl side chain for 20.2% efficiency organic solar cells
+Outline of a Theory of Citizenship 1
+Stochastic integrals
+Gemma: Open models based on gemini research and technology
+Hoffbrand's essential haematology
+Cellular and molecular mechanisms of skin wound healing
+Biomedical signal analysis
+Lanthanide and actinide chemistry
+A guide to cell death pathways
+Multiple discrepancies theory (MDT)
+Medical decision making
+Ribociclib plus endocrine therapy in early breast cancer
+The complete poems
+Overall survival with adjuvant pembrolizumab in renal-cell carcinoma
+Vision-language models for vision tasks: A survey
+Deformable 3d gaussians for high-fidelity monocular dynamic scene reconstruction
+Qwen2. 5 technical report
+Multimodal foundation models: From specialists to general-purpose assistants
+Perioperative nivolumab in resectable lung cancer
+Reskilling and upskilling the future-ready workforce for industry 4.0 and beyond
+Understanding mechanisms of antioxidant action in health and disease
+Global burden of bacterial antimicrobial resistance 1990–2021: a systematic analysis with forecasts to 2050
+Smarter eco-cities and their leading-edge artificial intelligence of things solutions for environmental sustainability: A comprehensive systematic review
+Dissociating language and thought in large language models
+Fourier analysis
+Mip-splatting: Alias-free 3d gaussian splatting
+How is ChatGPT's behavior changing over time?
+Tirzepatide for the treatment of obstructive sleep apnea and obesity
+Self-play fine-tuning converts weak language models to strong language models
+Home girls: A Black feminist anthology
+Generative artificial intelligence in marketing: Applications, opportunities, challenges, and research agenda
+DeepSeek-Coder: When the Large Language Model Meets Programming--The Rise of Code Intelligence
+Thermoplastic elastomers
+A comprehensive survey on pretrained foundation models: A history from bert to chatgpt
+Computational chemistry
+Apixaban for stroke prevention in subclinical atrial fibrillation
+Trial of early minimally invasive removal of intracerebral hemorrhage
+Fundamentals of weed science
+Logs with zeros? Some problems and solutions
+Theory and resistance in education: Towards a pedagogy for the opposition
+Phi-3 technical report: A highly capable language model locally on your phone
+Scaling speech technology to 1,000+ languages
+The impact of Generative AI (GenAI) on practices, policies and research direction in education: A case of ChatGPT and Midjourney
+A phase 2 randomized trial of survodutide in MASH and fibrosis
+African language structures
+Sam 2: Segment anything in images and videos
+Dora: Weight-decomposed low-rank adaptation
+Neoadjuvant immunotherapy in locally advanced mismatch repair–deficient colon cancer
+Global, regional, and national burden of disorders affecting the nervous system, 1990–2021: a systematic analysis for the Global Burden of Disease Study …
+Quality-of-life-inventory
+A plasmonic S-scheme Au/MIL-101 (Fe)/BiOBr photocatalyst for efficient synchronous decontamination of Cr (VI) and norfloxacin antibiotic
+To use or not to use ChatGPT in higher education? A study of students' acceptance and use of technology
+The engineering design of systems: models and methods
+Prolegomena to any future metaphysics
+Cognition and memory after Covid-19 in a large community sample
+The sun also rises
+How to do a Systematic Literature Review in Nursing: A Step-by-Step Guide, 3/e
+Self‐assembled interlayer enables high‐performance organic photovoltaics with power conversion efficiency exceeding 20%
+Chatbot arena: An open platform for evaluating llms by human preference
+Uncertainty quantification: theory, implementation, and applications
+Global burden of 288 causes of death and life expectancy decomposition in 204 countries and territories and 811 subnational locations, 1990–2021: a …
+A cell-free DNA blood-based test for colorectal cancer screening
+The death of expertise: The campaign against established knowledge and why it matters
+Highly efficient and stable perovskite solar cells via a multifunctional hole transporting material
+Transformative effects of ChatGPT on modern education: Emerging Era of AI Chatbots
+Extracellular vesicles as tools and targets in therapy for diseases
+Yolo-world: Real-time open-vocabulary object detection
+Monkey: Image resolution and text label are important things for large multi-modal models
+Computational principles of mobile robotics
+Chemical dynamics in condensed phases: relaxation, transfer, and reactions in condensed molecular systems
+Novel Resveratrol-Derived Sulfur-Rich Polymers: Advanced Materials for Silver Capture and High-Performance Lithium–Sulfur Battery Cathodes
+International law in theory and practice
+Internvl: Scaling up vision foundation models and aligning for generic visual-linguistic tasks
+Before the Mayflower: A history of the Negro in America, 1619-1962
+A visual-language foundation model for computational pathology
+College student retention: Formula for student success
+A foundation model for clinical-grade computational pathology and rare cancers detection
+Black Majority: Race, Rice, and Rebellion in South Carolina, 1670-1740
+U-mamba: Enhancing long-range dependency for biomedical image segmentation
+Lgm: Large multi-view gaussian model for high-resolution 3d content creation
+A general theoretical paradigm to understand learning from human preferences
+Advantages, challenges and molecular design of different material types used in organic solar cells
+Dust3r: Geometric 3d vision made easy
+Trial of lixisenatide in early Parkinson's disease
+Practical and ethical challenges of large language models in education: A systematic scoping review
+Thinking: An experimental and social study
+Clinical trials: a methodologic perspective
+The evolution of the British welfare state: a history of social policy since the Industrial Revolution
+European Union law: text and materials
+The varieties of goodness
+Motiondiffuse: Text-driven human motion generation with diffusion model
+8. The Fourth Industrial Revolution-What It Means and How to Respond
+Tackling NCDs: best buys and other recommended interventions for the prevention and control of noncommunicable diseases
+A survey on multimodal large language models for autonomous driving
+Fueling the future: A comprehensive review of hydrogen energy systems and their challenges
+Abortion and woman's choice: the state, sexuality and reproductive freedom
+Adapted large language models can outperform medical experts in clinical text summarization
+Electrospinning of nanofibres
+Continued treatment with tirzepatide for maintenance of weight reduction in adults with obesity: the SURMOUNT-4 randomized clinical trial
+The everyday language of white racism
+Shape anisotropic chain‐like CoNi/polydimethylsiloxane composite films with excellent low‐frequency microwave absorption and high thermal conductivity
+Artificially Inspired: Artifical Intelligence and the Future of Graphic Design
+Money, credit and commerce
+Polymeric nanoparticles for drug delivery
+The pillars of trustworthiness in qualitative research
+Rivers: form and process in alluvial channels
+Identification of mobile genetic elements with geNomad
+Fundamentals of veterinary clinical pathology
+Augmenting large language models with chemistry tools
+Highly accurate blood test for Alzheimer's disease is similar or superior to clinical cerebrospinal fluid tests
+Landscape Ecology: A Task-Oriented Perspective
+The spirit of democracy: The struggle to build free societies throughout the world
+Sense and nonsense: Evolutionary perspectives on human behaviour
+Secular movements in production and prices
+Comprehensive classroom management: Creating communities of support and solving problems
+Fractional quantum anomalous Hall effect in multilayer graphene
+Durvalumab after chemoradiotherapy in limited-stage small-cell lung cancer
+Educational testing and measurement
+Landscape: politics and perspectives
+The cell biology of ferroptosis
+High-entropy materials for energy and electronic applications
+Crisis intervention strategies
+Lectures on the calculus of variations and optimal control theory
+Dynamic 3d gaussians: Tracking by persistent dynamic view synthesis
+How nations negotiate
+Global age-sex-specific mortality, life expectancy, and population estimates in 204 countries and territories and 811 subnational locations, 1950–2021, and …
+Electoral change: Responses to evolving social and attitudinal structures in Western countries
+Introduction: Regional innovation systems–an evolutionary approach
+Democracy in America: Vol. 1
+Buried interface molecular hybrid for inverted perovskite solar cells
+EULAR recommendations for the management of systemic lupus erythematosus: 2023 update
+A first course in Sobolev spaces
+Toward a concept of workable competition
+ChatGPT makes medicine easy to swallow: an exploratory case study on simplified radiology reports
+Artificial intelligence in drug discovery and development
+Repvit: Revisiting mobile cnn from vit perspective
+Design principles for strong and tough hydrogels
+π-Extended nonfullerene acceptor for compressed molecular packing in organic solar cells to achieve over 20% efficiency
