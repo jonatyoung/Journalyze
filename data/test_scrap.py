@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from langdetect import detect
+import re
 import time
 
 def is_english(text):
@@ -21,14 +22,11 @@ def scrap_gs(url, output_file="scholar_results.txt"):
         for item in soup.select('[data-lid]'):
             try:
                 title = item.select_one('h3').get_text()
-                link = item.select_one('a')['href']
-                author_info = item.select_one('.gs_a').get_text()
-                abstract = item.select_one('.gs_rs').get_text() if item.select_one('.gs_rs') else ""
-                cited_text = item.select('.gs_fl a')[3].get_text() if len(item.select('.gs_fl a')) > 3 else "Citations: N/A"
-
+                title = re.sub(r'\[.*?\]\s*', '', title).strip()
+                
                 # Filter hanya jurnal berbahasa Inggris
-                if is_english(title) and is_english(abstract):
-                    text += f"{title}\n{link}\n{author_info}\n{abstract}\n{cited_text}\n-----------\n"
+                if is_english(title):
+                    text += f"{title}\n"
 
             except AttributeError:
                 continue  
