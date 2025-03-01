@@ -24,7 +24,6 @@ def scrap_gs(url, output_file="scholar_results.txt"):
                 title = item.select_one('h3').get_text()
                 title = re.sub(r'\[.*?\]\s*', '', title).strip()
                 
-
                 # Filter hanya jurnal berbahasa Inggris
                 if is_english(title):
                     text += f"{title}\n"
