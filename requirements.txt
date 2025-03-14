@@ -1,0 +1,13 @@
+pandas
+numpy
+nltk
+matplotlib
+seaborn
+wordcloud
+torch
+transformers
+tqdm
+bs4
+langdetect
+bertopic
+umap
