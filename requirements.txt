@@ -11,3 +11,7 @@ bs4
 langdetect
 bertopic
 umap
+fastapi
+uvicorn
+pydantic
+python-dotenv
