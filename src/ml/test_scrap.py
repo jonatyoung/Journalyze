@@ -10,7 +10,7 @@ def is_english(text):
     except:
         return False
 
-def scrap_gs(url, output_file="scholar_results.txt"):
+def scrap_gs(url, output_file="./data/scholar_results.txt"):
     text = ""
     page = 0  
 
