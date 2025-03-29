@@ -6,15 +6,15 @@ from bertopic import BERTopic
 import umap
 
 
-BASE_DIR = Path(__file__).resolve().parent.parent.parent
+BASE_DIR = "./"
 
 # 1. Load Data
-DATA_DIR = BASE_DIR / "data"
-MODEL_DIR = BASE_DIR / "models"
+DATA_DIR = BASE_DIR + "data/"
+MODEL_DIR = BASE_DIR + "models/"
 
-df = pd.read_csv(DATA_DIR / "preprocessed/preprocessed_data.csv")  # Ganti dengan nama file yang sesuai
+df = pd.read_csv(DATA_DIR + "preprocessed/preprocessed_data.csv")  # Ganti dengan nama file yang sesuai
 texts = df['cleaned_judul'].tolist()  # Ambil teks judul bersih
-embeddings = np.load(DATA_DIR / "bert_embeddings.npy")  # Load embeddings dari BERT
+embeddings = np.load(DATA_DIR + "preprocessed/bert_embeddings.npy")  # Load embeddings dari BERT
 
 # 2. UMAP untuk Dimensionality Reduction (Opsional, mempercepat pemrosesan)
 umap_model = umap.UMAP(n_neighbors=15, n_components=5, metric='cosine', random_state=42)
@@ -32,9 +32,9 @@ topic_model.visualize_topics()  # Representasi topik di 2D space
 
 
 # 7. Simpan Model dalam Format Pickle
-with open(MODEL_DIR / "bertopic_model.pkl", "wb") as file:
+with open(MODEL_DIR + "bertopic_model.pkl", "wb") as file:
     pickle.dump(topic_model, file)
 
 # 8. (Opsional) Menyimpan Hasil Topik ke CSV
 df['topic'] = topics
-df.to_csv(DATA_DIR / "hasil_topik.csv", index=False)
+df.to_csv(DATA_DIR + "raw/hasil_topik.csv", index=False)
