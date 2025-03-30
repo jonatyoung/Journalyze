@@ -1,31 +1,34 @@
-# Gunakan base image Python
-FROM python:3.9-slim
+# Gunakan base image Python  
+FROM python:3.9-slim  
 
-# Set working directory
-WORKDIR /app
+# Set working directory  
+WORKDIR /app  
 
-# Install system dependencies
+# Install system dependencies  
 RUN apt-get update && apt-get install -y \
     build-essential \
-    && rm -rf /var/lib/apt/lists/*
+    && rm -rf /var/lib/apt/lists/*  
 
-# Copy requirements.txt (pastikan file ini ada di scrap-service)
-COPY src/ml/scrap-service/requirements.txt .
+# Upgrade pip  
+RUN pip install --upgrade pip  
 
-# Install Python dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+# Copy requirements.txt   
+COPY src/ml/scrap-service/requirements.txt requirements.txt  
 
-# Copy seluruh direktori src
-COPY . /app
+# Install Python dependencies  
+RUN pip install --no-cache-dir -r requirements.txt  
 
-# Download NLTK resources
-RUN python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords'); nltk.download('wordnet')"
+# Download NLTK resources  
+RUN python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords'); nltk.download('wordnet')"  
 
-# Set environment untuk Python path
-ENV PYTHONPATH=/app
+# Copy seluruh direktori src  
+COPY . .  
 
-# Expose port yang digunakan
-EXPOSE 8000
+# Set environment untuk Python path  
+ENV PYTHONPATH=/app  
 
-# Jalankan aplikasi FastAPI
-CMD ["uvicorn", "src.ml.scrap-service.app:app", "--host", "0.0.0.0", "--port", "8000"]
+# Expose port yang digunakan  
+EXPOSE 8000  
+
+# Jalankan aplikasi FastAPI  
+CMD ["uvicorn", "src.ml.scrap-service.app:app", "--host", "0.0.0.0", "--port", "8000"]  

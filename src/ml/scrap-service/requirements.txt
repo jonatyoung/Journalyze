@@ -5,12 +5,7 @@ pymongo
 python-dotenv  
 torch  
 transformers  
-logging  
-datetime  
-re  
-string  
 tqdm  
-json  
 nltk  
 uvicorn  
 fastapi  
