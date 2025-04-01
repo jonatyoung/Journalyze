@@ -1,3 +1,9 @@
 .idea
-myenv
 .env
+myenv
+
+# ignore for src directory
+src/journalyze.egg-info
+src/__pycache__/
+src/db/__pycache__/
+src/ml/__pycache__/

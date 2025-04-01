@@ -9,6 +9,7 @@ transformers
 tqdm
 bs4
 langdetect
+scholarly
 bertopic
 umap
 fastapi

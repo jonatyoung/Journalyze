@@ -1,20 +1,20 @@
 #!/bin/bash
 set -e
 
-echo -e "\n==> Menunggu MongoDB siap...\n"
+echo -e "\n==> Waiting for MongoDB to be ready...\n"
 until mongosh --quiet --eval "db.adminCommand('ping')" > /dev/null 2>&1; do
-  echo "==> MongoDB belum siap... tunggu 1 detik"
+  echo "==> MongoDB is not ready yet... waiting 1 second"
   sleep 1
 done
 
-echo -e "\n==> MongoDB siap! Memulai inisialisasi database...\n"
+echo -e "\n==> MongoDB is ready! Starting database initialization...\n"
 
 DB_NAME=${MONGO_DB}
 DB_USER=${MONGO_USERNAME}
 DB_PASS=${MONGO_PASSWORD}
 
-echo -e "\n==> Membuat database: $DB_NAME\n"
-echo -e "\n==> Dengan username: $DB_USER\n"
+echo -e "\n==> Creating database: $DB_NAME\n"
+echo -e "\n==> With username: $DB_USER\n"
 
 mongosh admin --quiet --eval "
   db = db.getSiblingDB('$DB_NAME');
@@ -25,9 +25,9 @@ mongosh admin --quiet --eval "
       pwd: '$DB_PASS',
       roles: [{ role: 'dbOwner', db: '$DB_NAME' }]
     });
-    print('==> User $DB_USER berhasil dibuat di database $DB_NAME');
+    print('==> User $DB_USER successfully created in database $DB_NAME');
   } else {
-    print('==> User $DB_USER sudah ada');
+    print('==> User $DB_USER already exists');
   }
   
   db.createCollection('system_info');
@@ -37,8 +37,8 @@ mongosh admin --quiet --eval "
     version: '1.0'
   });
   
-  print('==> Koleksi awal dibuat!');
-  print('==> Setup database selesai dengan sukses!');
+  print('==> Initial collection created!');
+  print('==> Database setup completed successfully!');
 "
 
-echo -e "\n==> Inisialisasi MongoDB selesai!\n"
+echo -e "\n==> MongoDB initialization completed!\n"
