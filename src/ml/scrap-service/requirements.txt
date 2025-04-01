@@ -1,0 +1,11 @@
+scholarly  
+pandas  
+numpy  
+pymongo  
+python-dotenv  
+torch  
+transformers  
+tqdm  
+nltk  
+uvicorn  
+fastapi  
