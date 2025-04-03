@@ -2,11 +2,11 @@ install-dependecies:
 	pip install -r requirements.txt
 	python -c "import nltk; nltk.download('punkt_tab')"
 
-scrap-run:
-	python -m src.ml.pipeline
+ml-run:
+	python src/ml/app.py
 
 backend-run:
-	python -m src.backend.app.main
+	python src/backend/app/main.py
 
-train-model:
-	python src/ml/train.py	
+db-run:
+	python src/db/app.py

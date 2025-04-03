@@ -1,0 +1,12 @@
+scholarly
+pandas
+numpy
+nltk
+transformers
+bertopic
+tqdm
+fastapi
+uvicorn
+httpx
+pydantic
+python-dotenv

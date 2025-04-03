@@ -1,9 +1,8 @@
 services:
-  db:
+  mongodb:
     image: mongo
     container_name: journalyze-mongo
     restart: always
-    env_file: .env
     volumes:
       - mongo_data:/data/db
       - ./init-mongo.sh:/docker-entrypoint-initdb.d/init-mongo.sh:ro
@@ -12,12 +11,100 @@ services:
     environment: 
       MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
       MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
+      MONGO_USERNAME: ${MONGO_USERNAME}
+      MONGO_PASSWORD: ${MONGO_PASSWORD}
+      MONGO_HOST: ${MONGO_HOST}
+      MONGO_PORT: ${MONGO_PORT}
+      MONGO_DB: ${MONGO_DB}
+    networks:
+      - journalyze-network
     healthcheck:
       test: echo 'db.runCommand("ping").ok' | mongosh localhost:${MONGO_PORT}/?authSource=admin --quiet
       interval: 30s
       timeout: 10s
       retries: 5
       start_period: 30s
+
+  ml-service:
+    build:
+      context: ./src/ml
+    container_name: journalyze-ml-service
+    ports:
+      - "${ML_SERVICE_PORT}:${ML_SERVICE_PORT}"
+    depends_on:
+      db-service:
+        condition: service_healthy
+    environment:
+      ML_SERVICE_PORT: ${ML_SERVICE_PORT}
+      ML_SERVICE_HOST: ${ML_SERVICE_HOST}
+      DB_SERVICE_PORT: ${DB_SERVICE_PORT}
+      DB_SERVICE_HOST: ${DB_SERVICE_HOST}
+    networks:
+      - journalyze-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://${ML_SERVICE_HOST}:${ML_SERVICE_PORT}/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s  
+
+  db-service:
+    build:
+      context: ./src/db
+    container_name: journalyze-db-service
+    ports:
+      - "${DB_SERVICE_PORT}:${DB_SERVICE_PORT}"
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    environment:
+      DB_SERVICE_PORT: ${DB_SERVICE_PORT}
+      DB_SERVICE_HOST: ${DB_SERVICE_HOST}
+      MONGO_USERNAME: ${MONGO_USERNAME}
+      MONGO_PASSWORD: ${MONGO_PASSWORD}
+      MONGO_HOST: ${MONGO_HOST}
+      MONGO_PORT: ${MONGO_PORT}
+      MONGO_DB: ${MONGO_DB}
+      MONGO_COLLECTION: ${MONGO_COLLECTION}
+    networks:
+      - journalyze-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://${DB_SERVICE_HOST}:${DB_SERVICE_PORT}/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+
+  backend-service:
+    build:
+      context: ./src/backend
+    container_name: journalyze-backend-service
+    ports:
+      - "${BE_SERVICE_PORT}:${BE_SERVICE_PORT}"
+    depends_on:
+      ml-service:
+        condition: service_healthy
+      db-service:
+        condition: service_healthy
+    environment:
+      BE_SERVICE_PORT: ${BE_SERVICE_PORT}
+      BE_SERVICE_HOST: ${BE_SERVICE_HOST}
+      ML_SERVICE_PORT: ${ML_SERVICE_PORT}
+      ML_SERVICE_HOST: ${ML_SERVICE_HOST}
+      DB_SERVICE_PORT: ${DB_SERVICE_PORT}
+      DB_SERVICE_HOST: ${DB_SERVICE_HOST}
+    networks:
+      - journalyze-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://${BE_SERVICE_HOST}:${BE_SERVICE_PORT}/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s  
+
+networks:
+  journalyze-network:
+    driver: bridge
 
 volumes:
   mongo_data:

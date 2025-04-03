@@ -14,7 +14,6 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from transformers import BertTokenizer, BertModel
 from tqdm.auto import tqdm
-from src.db.mongo import connect_to_mongodb
 
 class Pipeline:
     def __init__(self, query, max_results=10):
@@ -107,17 +106,6 @@ class Pipeline:
         
         return publications
 
-    def save_to_mongodb(self, results):
-        mongo_collection = connect_to_mongodb()  # Memanggil fungsi dari mongo.py
-        
-        if mongo_collection is not None:
-            try:
-                insert_result = mongo_collection.insert_many(results)
-                inserted_count = len(insert_result.inserted_ids)
-                self.logger.info(f"✅ Successfully saved {inserted_count} documents")
-            except Exception as insert_error:
-                self.logger.error(f"Saving Error: {insert_error}")
-
     def save_to_json(self, results, output_file='preprocessed_scholar_results.json'):
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(results, f, ensure_ascii=False, indent=4, default=str)
@@ -128,15 +116,14 @@ class Pipeline:
             results = self.scrape_google_scholar()
             
             if results:
-                self.save_to_mongodb(results)
+                self.logger.info(f"Successfully scraped {len(results)} documents")
                 self.save_to_json(results)
+
+                return results
             else:
                 self.logger.warning("No results to save")
+                return []
         
         except Exception as e:
             self.logger.error(f"Pipeline Error: {e}")
-
-# Example of using the Pipeline class
-if __name__ == "__main__":
-    pipeline = Pipeline(query='machine learning', max_results=20)
-    pipeline.run_pipeline()
+            return []

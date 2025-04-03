@@ -7,3 +7,4 @@ src/journalyze.egg-info
 src/__pycache__/
 src/db/__pycache__/
 src/ml/__pycache__/
+src/backend/app/__pycache__/
