@@ -1,7 +1,3 @@
-install-dependecies:
-	pip install -r requirements.txt
-	python -c "import nltk; nltk.download('punkt_tab')"
-
 ml-run:
 	python src/ml/app.py
 
@@ -10,3 +6,9 @@ backend-run:
 
 db-run:
 	python src/db/app.py
+
+compose-up:
+	docker-compose up -d --build
+
+compose-down:
+	docker-compose down	
