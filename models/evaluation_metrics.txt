@@ -1,0 +1,20 @@
+BERTopic Model Evaluation Metrics
+==============================
+Date: 2025-04-16 22:31:20
+
+General Metrics:
+- Coherence Score: 0.34757827369689276
+- Number of Topics: 1
+- Document Count: 310
+- Average Topic Size: 155.00
+- Outlier Percentage: 0.00%
+
+Topic Distribution:
+- Topic 0: 285 documents - Top words: learning, deep, and, for, in
+- Topic 1: 25 documents - Top words: deep, learning, the, with, what
+
+Model Hyperparameters:
+- n_neighbors: 15
+- n_components: 5
+- min_cluster_size: 10
+- random_state: 42

@@ -29,7 +29,7 @@ def connect_to_mongodb():
 
     try:
         connection_options = {
-            'socketTimeoutMS': 30000,
+            'socketTimeoutMS': 3600000,
             'connectTimeoutMS': 30000,
             'serverSelectionTimeoutMS': 30000
         }

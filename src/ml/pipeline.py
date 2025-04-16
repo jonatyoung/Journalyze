@@ -14,6 +14,8 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from transformers import BertTokenizer, BertModel
 from tqdm.auto import tqdm
+import time
+import random as rnd
 
 class Pipeline:
     def __init__(self, query, max_results=10):
@@ -96,6 +98,7 @@ class Pipeline:
                     }
                     
                     publications.append(publication_info)
+                    time.sleep(rnd.randint(1,10))
                 
                 except StopIteration:
                     self.logger.warning("Publication search completed before reaching max_results")

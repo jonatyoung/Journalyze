@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException, status
+from fastapi import FastAPI, HTTPException, status, Query
 import uvicorn
 import os
 from dotenv import load_dotenv
@@ -7,6 +7,10 @@ import logging
 import httpx
 from pipeline import Pipeline
 from datetime import datetime
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
 
 load_dotenv()
 
@@ -31,9 +35,10 @@ def index():
     name="start scraping from google scholar",
     status_code=status.HTTP_200_OK
 )
-async def start_scraping():
+async def start_scraping(query: str = Query(default="computer vision", description="Search query for Google Scholar"), 
+                         max_results: int = Query(default=200, description="Maximum number of results to retrieve")):
     try:
-        pipeline = Pipeline(query='machine learning', max_results=20)
+        pipeline = Pipeline(query=query, max_results=max_results)
         logger.info(f"Starting pipeline with query: {pipeline.query}, max results: {pipeline.max_results}")
         results = pipeline.run_pipeline()
 
@@ -48,13 +53,14 @@ async def start_scraping():
             except Exception as e:   
                 logger.error(f"Error saving result to DB: {str(e)}")
 
-        return {"message": "Scraping successfully executed", "count":{len(results)}}
+        return {"message": "Scraping successfully executed", "count": len(results)}
     except Exception as e:
         logger.error(f"Error during scraping: {str(e)}")
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail="An error occured while running the scraping pipeline"
         )
+    
 
 @app.get("/health")
 async def health_check():

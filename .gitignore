@@ -1,6 +1,8 @@
 .idea
 .env
 myenv
+python_env
+data
 
 # ignore for src directory
 src/journalyze.egg-info

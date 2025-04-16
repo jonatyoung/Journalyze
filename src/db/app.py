@@ -44,12 +44,12 @@ def insert_documents(documents: list[dict]):
 @app.get(
     '/scraped-results',
     summary="Fetch a lot of scraped data from the database",
-    response_model=list[ScrapingResult],
+    # Hapus response_model agar tidak memaksa konversi ke model Pydantic
     status_code=status.HTTP_200_OK)
 def get_scraped_result():
     try:
         logger.info("Start fetching scraped data from the database")
-        results = list(mongo_collection.find().limit(10))
+        results = list(mongo_collection.find())
 
         if not results:
             raise HTTPException(
@@ -59,13 +59,25 @@ def get_scraped_result():
 
         logger.info(f"Fetched {len(results)} results from database.")
         
-        return [mongo_to_pydantic(doc) for doc in results]
+        # Konversi ObjectId dan tipe data lain yang tidak dapat di-serialize JSON
+        for doc in results:
+            # Konversi ObjectId ke string
+            if '_id' in doc:
+                doc['_id'] = str(doc['_id'])
+            
+            # Jika ada tipe data MongoDB lain yang perlu dikonversi, tambahkan di sini
+            # Contoh untuk datetime
+            for key, value in doc.items():
+                if isinstance(value, datetime):
+                    doc[key] = value.isoformat()
+        
+        # Kembalikan hasil mentah tanpa konversi ke Pydantic
+        return results
     except Exception as e:
         logger.error(f"Error fetching data: {str(e)}")
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail="Error fetching data")
-
 @app.get("/health")
 async def health_check():
     try:

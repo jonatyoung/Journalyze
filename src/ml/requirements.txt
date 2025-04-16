@@ -10,3 +10,4 @@ uvicorn
 httpx
 pydantic
 python-dotenv
+hf_xet
