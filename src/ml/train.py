@@ -13,29 +13,15 @@ import gensim.corpora as corpora
 from gensim.models import TfidfModel
 
 class BERTopicTrainer:
-    """
-    A class for training and evaluating BERTopic models in a microservice architecture.
-    Handles communication with database service for training data retrieval and model persistence.
-    """
     
     def __init__(
         self,
         base_dir: str = "./",
         n_neighbors: int = 15,
-        n_components: int = 5,
-        min_cluster_size: int = 10,
+        n_components: int = 10,
+        min_cluster_size: int = 25,
         random_state: int = 42
     ):
-        """
-        Initialize the BERTopic trainer.
-        
-        Args:
-            base_dir: Base directory for data and model storage
-            n_neighbors: UMAP parameter - number of neighbors
-            n_components: UMAP parameter - number of components
-            min_cluster_size: Minimum cluster size for HDBSCAN
-            random_state: Random state for reproducibility
-        """
         self.base_dir = base_dir
         self.data_dir = os.path.join(base_dir, "data/")
         self.model_dir = os.path.join(base_dir, "models/")
@@ -68,20 +54,9 @@ class BERTopicTrainer:
           api_endpoint: Optional[str] = None,
           api_results: Optional[List[Dict[str, Any]]] = None,
           file_path: Optional[str] = None, 
-          text_column: str = 'original_title',
+          text_column: str = 'cleaned_title',
           embedding_column: str = 'title_embedding',
           embedding_path: Optional[str] = None) -> None:
-        """
-        Load data either from API results, dictionary or local files
-        
-        Args:
-            api_endpoint: URL endpoint to fetch data from (optional)
-            api_results: List of documents from API response (optional)
-            file_path: Path to the preprocessed CSV file (optional)
-            text_column: Column/key name containing the text data
-            embedding_column: Column/key name containing the embedding data
-            embedding_path: Path to the precomputed embeddings file (optional)
-        """
         
         if api_endpoint is not None:
             self.logger.info(f"Loading data from API endpoint: {api_endpoint}")
@@ -160,7 +135,7 @@ class BERTopicTrainer:
         self.logger.info(f"Loaded {len(self.texts)} documents and embeddings with shape {self.embeddings.shape}")
         
     def _create_umap_model(self) -> umap.UMAP:
-        """Create and configure UMAP model for dimensionality reduction"""
+        
         return umap.UMAP(
             n_neighbors=self.n_neighbors,
             n_components=self.n_components,
@@ -169,12 +144,12 @@ class BERTopicTrainer:
         )
     
     def _tokenized_texts(self) -> List[List[str]]:
-        """Convert texts to tokenized format for coherence evaluation"""
+        
         # Simple whitespace tokenization - can be improved with better tokenization
         return [text.lower().split() for text in self.texts]
     
     def train(self) -> None:
-        """Train the BERTopic model using precomputed embeddings"""
+
         if self.texts is None or self.embeddings is None:
             raise ValueError("Data not loaded. Call load_data() first.")
             
@@ -198,15 +173,6 @@ class BERTopicTrainer:
         self.logger.info(f"Model training complete. Found {len(self.topic_info) - 1} topics")
         
     def calculate_coherence_score(self, coherence_metric: str = 'c_v') -> float:
-        """
-        Calculate topic coherence score to evaluate model quality
-        
-        Args:
-            coherence_metric: Coherence metric to use ('c_v', 'u_mass', 'c_uci', 'c_npmi')
-            
-        Returns:
-            float: Coherence score
-        """
         if self.topic_model is None:
             raise ValueError("Model not trained. Call train() first.")
             
@@ -250,16 +216,7 @@ class BERTopicTrainer:
         return self.coherence_score
     
     def save_model(self, model_name: str = "bertopic_model", db_service = None) -> str:
-        """
-        Save the trained model either to file or via DB service
-        
-        Args:
-            model_name: Name to save the model under
-            db_service: Database service client for storing the model (optional)
-            
-        Returns:
-            str: Path where model was saved or confirmation message
-        """
+
         if self.topic_model is None:
             raise ValueError("Model not trained. Call train() first.")
         
@@ -305,16 +262,7 @@ class BERTopicTrainer:
                 raise
     
     def load_model(self, model_name: str = "bertopic_model", db_service = None) -> BERTopic:
-        """
-        Load a previously saved model
         
-        Args:
-            model_name: Name of the model to load
-            db_service: Database service client for retrieving the model (optional)
-            
-        Returns:
-            BERTopic: The loaded model
-        """
         if db_service is not None:
             self.logger.info(f"Loading model '{model_name}' from database service")
             try:
@@ -344,7 +292,6 @@ class BERTopicTrainer:
                 
         return self.topic_model
     
-    def get_topic_visualization(self, viz_type: str = 'barchart', top_n: int = 10):
         """
         Generate topic visualization
         
@@ -376,12 +323,7 @@ class BERTopicTrainer:
             raise
     
     def get_evaluation_metrics(self) -> Dict[str, Any]:
-        """
-        Get all evaluation metrics for the trained model
         
-        Returns:
-            Dict containing evaluation metrics
-        """
         if self.topic_model is None:
             raise ValueError("Model not trained. Call train() first.")
             
@@ -411,23 +353,8 @@ if __name__ == "__main__":
     trainer = BERTopicTrainer(base_dir="./")
     
     try:
-        # Load data from local files - uncomment and modify one of these options
-        # Option 1: Load from API endpoint
+        # Load from API endpoint
         trainer.load_data(api_endpoint="http://172.19.0.3:8002/scraped-results")
-        
-        # Option 2: Load from local CSV file with separate embeddings file
-        # trainer.load_data(
-        #     file_path="data/documents.csv", 
-        #     text_column="text", 
-        #     embedding_path="data/embeddings.npy"
-        # )
-        
-        # Option 3: Load from local CSV file with embedded vectors in dataframe
-        # trainer.load_data(
-        #     file_path="data/documents_with_embeddings.csv", 
-        #     text_column="text", 
-        #     embedding_column="embedding"
-        # )
         
         # Train model
         trainer.train()
@@ -482,6 +409,41 @@ if __name__ == "__main__":
                     
                     f.write(f"- Topic {topic_id}: {count} documents - Top words: {topic_words}\n")
             
+            # Add detailed topic information
+            f.write(f"\nDetailed Topic Information:\n")
+            f.write(f"-------------------------\n")
+            # Process each topic (excluding outliers)
+            for _, row in topic_info[topic_info['Topic'] != -1].iterrows():
+                topic_id = row['Topic']
+                name = row['Name']
+                count = row['Count']
+                representation = row['Representation']
+                f.write(f"Topic {topic_id}:\n")
+                f.write(f"  Name: {name}\n")
+                f.write(f"  Document Count: {count}\n")
+                f.write(f"  Representation: {representation}\n")
+                
+                # Add top 10 terms with their weights
+                f.write(f"  Top Terms (with weights):\n")
+                try:
+                    top_terms = trainer.topic_model.get_topic(topic_id)[:10]
+                    for term, weight in top_terms:
+                        f.write(f"    - {term}: {weight:.4f}\n")
+                except Exception as e:
+                    f.write(f"    Error retrieving terms: {str(e)}\n")
+                
+                # Add representative documents if available
+                try:
+                    f.write(f"  Representative Documents (sample):\n")
+                    docs_per_topic = trainer.topic_model.get_representative_docs(topic_id)
+                    # Limit to 3 sample documents
+                    for i, doc in enumerate(docs_per_topic[:3]):
+                        f.write(f"    {i+1}. {doc[:100]}{'...' if len(doc) > 100 else ''}\n")
+                except Exception as e:
+                    f.write(f"    Error retrieving documents: {str(e)}\n")
+                
+                f.write("\n")
+            
             # Write hyperparameters
             f.write(f"\nModel Hyperparameters:\n")
             f.write(f"- n_neighbors: {trainer.n_neighbors}\n")
@@ -490,10 +452,6 @@ if __name__ == "__main__":
             f.write(f"- random_state: {trainer.random_state}\n")
         
         print(f"Evaluation metrics saved to: {evaluation_file}")
-        
-        # Visualize topics (uncomment to enable)
-        # viz = trainer.get_topic_visualization(viz_type='barchart', top_n=10)
-        # Save visualization if needed
         
     except Exception as e:
         print(f"Error in topic modeling process: {str(e)}")

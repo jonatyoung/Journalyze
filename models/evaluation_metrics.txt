@@ -1,20 +1,64 @@
 BERTopic Model Evaluation Metrics
 ==============================
-Date: 2025-04-16 22:31:20
+Date: 2025-04-16 23:17:45
 
 General Metrics:
-- Coherence Score: 0.34757827369689276
-- Number of Topics: 1
+- Coherence Score: 0.38095163802276544
+- Number of Topics: 2
 - Document Count: 310
-- Average Topic Size: 155.00
-- Outlier Percentage: 0.00%
+- Average Topic Size: 86.00
+- Outlier Percentage: 44.52%
 
 Topic Distribution:
-- Topic 0: 285 documents - Top words: learning, deep, and, for, in
-- Topic 1: 25 documents - Top words: deep, learning, the, with, what
+- Outlier Topic (-1): 138 documents
+- Topic 0: 121 documents - Top words: deep, learning, application, computational, network
+- Topic 1: 51 documents - Top words: review, learning, deep, research, overview
+
+Detailed Topic Information:
+-------------------------
+Topic 0:
+  Name: 0_deep_learning_application_computational
+  Document Count: 121
+  Representation: ['deep', 'learning', 'application', 'computational', 'network', 'algorithm', 'machine', 'representation', 'understanding', 'new']
+  Top Terms (with weights):
+    - deep: 0.2014
+    - learning: 0.1980
+    - application: 0.0551
+    - computational: 0.0468
+    - network: 0.0401
+    - algorithm: 0.0390
+    - machine: 0.0368
+    - representation: 0.0357
+    - understanding: 0.0345
+    - new: 0.0345
+  Representative Documents (sample):
+    1. machine learning deep learning method cybersecurity
+    2. computational method deep learning
+    3. machine learning deep learning
+
+Topic 1:
+  Name: 1_review_learning_deep_research
+  Document Count: 51
+  Representation: ['review', 'learning', 'deep', 'research', 'overview', 'application', 'recent', 'challenge', 'detection', 'advance']
+  Top Terms (with weights):
+    - review: 0.2307
+    - learning: 0.1758
+    - deep: 0.1651
+    - research: 0.0989
+    - overview: 0.0877
+    - application: 0.0679
+    - recent: 0.0628
+    - challenge: 0.0603
+    - detection: 0.0471
+    - advance: 0.0471
+  Representative Documents (sample):
+    1. review machine learning deep learning application
+    2. review deep learning research
+    3. review deep learning
+
 
 Model Hyperparameters:
 - n_neighbors: 15
-- n_components: 5
-- min_cluster_size: 10
+- n_components: 10
+- min_cluster_size: 25
 - random_state: 42
