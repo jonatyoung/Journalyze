@@ -3,7 +3,7 @@ import random as rnd
 from scholarly import scholarly  
 import logging  
 
-class Scrap:  
+class scrap:  
     def __init__(self, query, max_results=10):  
         self.query = query  
         self.max_results = max_results  
