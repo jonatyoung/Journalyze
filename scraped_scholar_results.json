@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Machine learning algorithms-a review",
+        "abstract": "Here‟sa quick look at some of the commonly used algorithms in machine learning (ML)  Supervised Learning Supervised learning is the machine learning task of learning a function",
+        "authors": [
+            "B Mahesh"
+        ],
+        "journal_conference_name": "International Journal of Science and Research …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2020",
+        "doi": "https://www.researchgate.net/profile/Batta-Mahesh/publication/344717762_Machine_Learning_Algorithms_-A_Review/links/5f8b2365299bf1b53e2d243a/Machine-Learning-Algorithms-A-Review.pdf?eid=5082902844932096t",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Machine learning",
+        "abstract": "from data is called learning or training. The  machine learning is to find or approximate  ground-truth. In this book, models are sometimes called learners, which are machine learning",
+        "authors": [
+            "ZH Zhou"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2021",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=ctM-EAAAQBAJ&oi=fnd&pg=PR6&dq=machine+learning&ots=o_MmV0Tt_s&sig=uhZqYOGbbd_k1JpZJoqQQ9NpcUU",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Machine learning",
+        "abstract": "MIT presents a concise primer on machine learning—computer programs that learn from  data and the basis of applications like voice recognition and driverless cars. No in-depth",
+        "authors": [
+            "E Alpaydin"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2021",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=Eyk5EAAAQBAJ&oi=fnd&pg=PR9&dq=machine+learning&ots=WRwOd9YiqP&sig=Dul6HqwR-ztFQdJMlCTU56lmeAk",
+        "group_name": "Journalyze"
+    }
+]
