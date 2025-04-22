@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import pickle
 import os
+import os
 from pathlib import Path
 import logging
 from typing import List, Dict, Tuple, Optional, Union, Any
@@ -323,7 +324,6 @@ class BERTopicTrainer:
             raise
     
     def get_evaluation_metrics(self) -> Dict[str, Any]:
-        
         if self.topic_model is None:
             raise ValueError("Model not trained. Call train() first.")
             
@@ -331,7 +331,11 @@ class BERTopicTrainer:
             outlier_count = 0
             if -1 in self.topic_info['Topic'].values:
                 outlier_count = self.topic_info.loc[self.topic_info['Topic'] == -1, 'Count'].values[0]
-                
+            
+            # Cek apakah coherence_score valid
+            if self.coherence_score is None:
+                raise ValueError("Coherence score is None. Make sure the model is trained and coherence score is calculated.")
+    
             metrics = {
                 "coherence_score": self.coherence_score,
                 "num_topics": len(self.topic_info) - 1,  # Exclude outlier topic
@@ -346,7 +350,6 @@ class BERTopicTrainer:
             self.logger.error(f"Error calculating evaluation metrics: {str(e)}")
             raise
 
-
 # Example usage
 if __name__ == "__main__":
     # Initialize trainer
@@ -354,7 +357,7 @@ if __name__ == "__main__":
     
     try:
         # Load from API endpoint
-        trainer.load_data(api_endpoint="http://172.19.0.3:8002/scraped-results")
+        trainer.load_data(api_endpoint="http://127.0.0.1:8002/scraped-results")
         
         # Train model
         trainer.train()

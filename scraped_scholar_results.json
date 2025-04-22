@@ -1,38 +1,2683 @@
 [
     {
-        "title": "Machine learning algorithms-a review",
-        "abstract": "Here‟sa quick look at some of the commonly used algorithms in machine learning (ML)  Supervised Learning Supervised learning is the machine learning task of learning a function",
+        "title": "Deep learning for computer vision: A brief review",
+        "abstract": "The overview is intended to be useful to computer vision and  the art in deep learning for  computer vision tasks, such as object  learning algorithms to key computer vision tasks, such as",
         "authors": [
-            "B Mahesh"
+            "A Voulodimos",
+            "N Doulamis",
+            "A Doulamis"
         ],
-        "journal_conference_name": "International Journal of Science and Research …",
+        "journal_conference_name": "Computational …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2018",
+        "doi": "https://onlinelibrary.wiley.com/doi/abs/10.1155/2018/7068349",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision",
+        "abstract": "From the Publisher: Computer Vision presents the necessary theory and techniques for students  and practitioners who will work in fields where significant information must be extracted",
+        "authors": [
+            "G Stockman",
+            "LG Shapiro"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2001",
+        "doi": "https://dl.acm.org/doi/abs/10.5555/558008",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision",
+        "abstract": "Computer vision methods have been developed for different situations. One example is a  detection of human face. For  Currently, a facial analysis system for human–computer",
+        "authors": [
+            "DH Ballard",
+            "CM Brown"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1982",
+        "doi": "https://dl.acm.org/doi/abs/10.5555/578131",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision: algorithms and applications",
+        "abstract": "doing computer vision research in  in computer vision to students in both computer science  and electrical engineering. I prefer students to have either an image processing or a computer",
+        "authors": [
+            "R Szeliski"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2022",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=QptXEAAAQBAJ&oi=fnd&pg=PR9&dq=computer+vision&ots=BNyfw4YDAg&sig=o8nRGsyUeROJxbqguCMcgC5UJ3M",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision: a modern approach",
+        "abstract": "The accessible presentation of this book gives both a general view of the entire computer  vision  Appropriate for use by engineers as a comprehensive reference to the computer vision",
+        "authors": [
+            "DA Forsyth",
+            "J Ponce"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2002",
+        "doi": "https://dl.acm.org/doi/abs/10.5555/580035",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Signal processing for computer vision",
+        "abstract": "Interest in computer vision has increased considerably as  over the past few decades, the  vision field is still in its infancy.  low-level methods for computer vision. The field has seen a",
+        "authors": [
+            "GH Granlund",
+            "H Knutsson"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2013",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=FNDkBwAAQBAJ&oi=fnd&pg=PR9&dq=computer+vision&ots=_83Ea76KVb&sig=AyVYU7KgoNZvMxgN9Jg-zQz70Tk",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "A perspective on range finding techniques for computer vision",
+        "abstract": "contributing little to our understanding of human vision, are certainly acceptable in indoor   this analysis outside the scope of legitimate computer vision. That both intensity and range",
+        "authors": [
+            "RA Jarvis"
+        ],
+        "journal_conference_name": "IEEE Transactions on Pattern Analysis and …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1983",
+        "doi": "https://ieeexplore.ieee.org/abstract/document/4767365/",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Emerging topics in computer vision",
+        "abstract": "computer vision innovations. Gerard Medioni and Sing Bing Kang present advances in  computer vision  introduce important new topics such as vision for special effects and the tensor",
+        "authors": [
+            "G Medioni",
+            "SB Kang"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2004",
+        "doi": "https://dl.acm.org/doi/abs/10.5555/993884",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Handbook of computer vision and applications",
+        "abstract": "We also elaborate on the task of signal processing for computer vision. Pattern recognition  (Section 1.2) plays a central role in computer vision because it uses the features extracted by",
+        "authors": [
+            "B Jähne",
+            "H Haussecker",
+            "P Geissler"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1999",
+        "doi": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=9e1e89a35cfeca9c0b6c39f1a7b9df2306badabc",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Glossary of computer vision terms.",
+        "abstract": "1. An image is a spatial representation of an object, a two-dimensional or three-dimensional  scene, or another image. It can be real or virtual as in optics, In computer vision,“image”",
+        "authors": [
+            "RM Haralick",
+            "LG Shapiro"
+        ],
+        "journal_conference_name": "Pattern Recognit.",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1991",
+        "doi": "https://www.academia.edu/download/42393821/Glossary_of_computer_vision_terms20160208-14055-1hf3dbe.pdf",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Three-dimensional computer vision",
+        "abstract": "3D vision is being developed for mobile robots capable of passing through  computer vision  for various demands. The first four chapters are devoted to basic methods of computer vision.",
+        "authors": [
+            "Y Shirai"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2012",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=uOCpCAAAQBAJ&oi=fnd&pg=PA1&dq=computer+vision&ots=Vj3WMvktPf&sig=YlZq4UoTBXvjOqohEmeKKbwBFT0",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "A polyhedron representation for computer vision",
+        "abstract": "USE OF POLYHEDRA IN COMPUTER VISION My approach to computer vision is best  characterized as inverse computer graphics. In computer graphics, the world is represented in",
+        "authors": [
+            "BG Baumgart"
+        ],
+        "journal_conference_name": "… 22, 1975, national computer conference and exposition",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1975",
+        "doi": "https://dl.acm.org/doi/abs/10.1145/1499949.1500071",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision and image processing: a practical approach using cviptools with cdrom",
+        "abstract": "and Image Processing, a basic background in mathematics and computers is necessary.   Computer Vision and Image Processing's solid introduction for anyone who uses computer",
+        "authors": [
+            "SE Umbaugh"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1997",
+        "doi": "https://dl.acm.org/doi/abs/10.5555/522605",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Algorithms for image processing and computer vision",
+        "abstract": "completed a book (Practical Computer Vision Using C), I  vision is, I think, a unique feature  of this book. Again using downloadable tools, this chapter shows how to link all the computers",
+        "authors": [
+            "JR Parker"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2010",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=BK3oXzpxC44C&oi=fnd&pg=PT7&dq=computer+vision&ots=IUlIboGHQE&sig=O4Lh5yxN4_qpK3gvCC3ncsO99KM",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Fundamentals of computer vision",
+        "abstract": "many problems in Computer Vision. These transformations are also used in Computer Graphics.  We  One of the important goals in Computer Vision is to recover this lost dimension. The",
+        "authors": [
+            "M Shah"
+        ],
+        "journal_conference_name": "Orlando: University of Central Florida",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1997",
+        "doi": "http://www.cs.ucf.edu/courses/cap6411/book.ps",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision: models, learning, and inference",
+        "abstract": "That book too is marked by an enormously comprehensive view of computer vision, by   summary of the state of the art in computer vision, the frontier of our knowledge and abilities,",
+        "authors": [
+            "SJD Prince"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2012",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=PmrICLzHutgC&oi=fnd&pg=PA1&dq=computer+vision&ots=cUMTSsS41s&sig=H2-ug3A3VPFbu0tznNOf8IpaB4U",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision and image processing: a paper review",
+        "abstract": "Computer vision helps scholars to analyze images and video to obtain necessary  to  computer vision, image processing, and their related studies. We categorized the computer vision",
+        "authors": [
+            "V Wiley",
+            "T Lucas"
+        ],
+        "journal_conference_name": "International journal of artificial intelligence research",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2018",
+        "doi": "https://ijair.id/index.php/ijair/article/view/42",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Machine learning in computer vision",
+        "abstract": "techniques into computer vision applications. An innovative combination of computer vision  and machine learning techniques has the promise of advancing the field of computer vision,",
+        "authors": [
+            "N Sebe"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2005",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=lemw2Rhr_PEC&oi=fnd&pg=PR11&dq=computer+vision&ots=X68LU10vpA&sig=xk-J3K3uJiWnyaC2qs0CYrtlJwo",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision systems",
+        "abstract": "This leads to questions concerning the adequacy of current methodology and serial  computers for research in computer vision and the final hardware structure for practical, working",
+        "authors": [
+            "A Hanson"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1978",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=gMGkDLLhnFUC&oi=fnd&pg=PP1&dq=computer+vision&ots=lcCKrjJfrX&sig=l-C3WVkv0EacB1QqFZYYicxgcqI",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Handbook of pattern recognition and computer vision",
+        "abstract": "Computer vision researchers have long realized the importance of knowledge. The chapter   from different sources to improve different computer vision tasks. Specifically an augmented",
+        "authors": [
+            "CH Chen"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2015",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=IWzFCwAAQBAJ&oi=fnd&pg=PR7&dq=computer+vision&ots=dA9eoz7rTq&sig=0H6A6dK-0KUEgSLQqk7_kiMkqTA",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "A guided tour of computer vision",
+        "abstract": "); the second is the basic computer vision text; and the third is a  For the purposes of this  book, computer vision includes  This overview gives a quick introduction to computer vision with",
+        "authors": [
+            "VS Nalwa"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1994",
+        "doi": "https://dl.acm.org/doi/abs/10.5555/192076",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Geometric modeling for computer vision.",
+        "abstract": "system for application to computer vision. ln computer vision geometric models provide a  goal for descriptive image analysis, an origin for verification image synthesis, and a context for",
+        "authors": [
+            "BG Baumgart"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1974",
+        "doi": "https://search.proquest.com/openview/8194ebf7f38e297224facbdc90e3976f/1.pdf?pq-origsite=gscholar&cbl=18750&diss=y",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision: A reference guide",
+        "abstract": "Since many computer vision algorithms assume a linear relationship between sensor  irradiance and the measured image intensity, it is important to identify saturated pixels and handle",
+        "authors": [
+            "K Ikeuchi"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2021",
+        "doi": "https://link.springer.com/content/pdf/10.1007/978-3-030-63416-2_300109.pdf",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Machine learning in computer vision",
+        "abstract": "This study on machine learning and computer vision explores and analytically evaluates  the  and computer vision in various domains. The machine learning and computer vision",
+        "authors": [
+            "AI Khan",
+            "S Al-Habsi"
+        ],
+        "journal_conference_name": "Procedia Computer Science",
         "publisher": "PUBLICATION_SEARCH_SNIPPET",
         "year": "2020",
-        "doi": "https://www.researchgate.net/profile/Batta-Mahesh/publication/344717762_Machine_Learning_Algorithms_-A_Review/links/5f8b2365299bf1b53e2d243a/Machine-Learning-Algorithms-A-Review.pdf?eid=5082902844932096t",
+        "doi": "https://www.sciencedirect.com/science/article/pii/S1877050920308218",
         "group_name": "Journalyze"
     },
     {
-        "title": "Machine learning",
-        "abstract": "from data is called learning or training. The  machine learning is to find or approximate  ground-truth. In this book, models are sometimes called learners, which are machine learning",
+        "title": "A computer vision for animal ecology",
+        "abstract": "My aim is to describe the ongoing work in utilizing computer vision for animal  unite computer  vision algorithms, and describe areas for collaboration and growth with the computer vision",
         "authors": [
-            "ZH Zhou"
+            "BG Weinstein"
         ],
-        "journal_conference_name": "NA",
+        "journal_conference_name": "Journal of Animal Ecology",
         "publisher": "PUBLICATION_SEARCH_SNIPPET",
-        "year": "2021",
-        "doi": "https://books.google.com/books?hl=en&lr=&id=ctM-EAAAQBAJ&oi=fnd&pg=PR6&dq=machine+learning&ots=o_MmV0Tt_s&sig=uhZqYOGbbd_k1JpZJoqQQ9NpcUU",
+        "year": "2018",
+        "doi": "https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2656.12780",
         "group_name": "Journalyze"
     },
     {
-        "title": "Machine learning",
-        "abstract": "MIT presents a concise primer on machine learning—computer programs that learn from  data and the basis of applications like voice recognition and driverless cars. No in-depth",
+        "title": "Computer vision: principles, algorithms, applications, learning",
+        "abstract": "Computer and Machine Vision) clearly and systematically presents the basic methodology of  computer vision,  more of the concepts and applications of computer vision, making it a very",
         "authors": [
-            "E Alpaydin"
+            "ER Davies"
         ],
         "journal_conference_name": "NA",
         "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2017",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=mEuZDgAAQBAJ&oi=fnd&pg=PP1&dq=computer+vision&ots=FxN6poXq0O&sig=UxBSfOkE5jkL6T4wr7ORl0MkolM",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Three-dimensional computer vision: a geometric viewpoint",
+        "abstract": "The question of how to extract this information has been at the core of computer vision from  the  process; one of the main thrusts of computer vision and of this book is to analyze the",
+        "authors": [
+            "O Faugeras"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1993",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=Aa6TTW9dWy0C&oi=fnd&pg=PR11&dq=computer+vision&ots=eYASDyehU4&sig=oy5wVpIdX8WErVqhZJl0T_urTLY",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Robust techniques for computer vision",
+        "abstract": "sense, robustness of a computer vision algorithm is  computer vision algorithms is still far  away from that of human visual perception, we should consider the hierarchy of computer vision",
+        "authors": [
+            "P Meer"
+        ],
+        "journal_conference_name": "Emerging topics in computer vision",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2004",
+        "doi": "http://www.cs.huji.ac.il/course/2005/impr/articles/robustTechcv.pdf",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "An introduction to 3D computer vision techniques and algorithms",
+        "abstract": "areas of computer science, including computer vision. This  features to be afforded by  computers. One especially desirable  Effective 3D computer vision methods and implementations",
+        "authors": [
+            "B Cyganek",
+            "JP Siebert"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2011",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=4leU0ZBkHngC&oi=fnd&pg=PT8&dq=computer+vision&ots=6YTvxdt48j&sig=zBqPHB85Sa1X01qltbYWnXhzkaM",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision for computer games",
+        "abstract": "A computer vision-based user interface could provide these capabilities. Computer games   games represents a lowend niche in the spectrum of computer vision algorithms. The speed",
+        "authors": [
+            "WT Freeman",
+            "K Tanaka",
+            "J Ohta"
+        ],
+        "journal_conference_name": "Proceedings of the …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1996",
+        "doi": "https://ieeexplore.ieee.org/abstract/document/557250/",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Machine learning in computer vision: A review.",
+        "abstract": "-art, and how ML is utilized in computer vision and image processing. This survey will provide   yet to be addressed, for efficiently applying of ML in Computer vision and image process.",
+        "authors": [
+            "AA Khan",
+            "AA Laghari",
+            "SA Awan"
+        ],
+        "journal_conference_name": "EAI Endorsed Transactions on …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
         "year": "2021",
-        "doi": "https://books.google.com/books?hl=en&lr=&id=Eyk5EAAAQBAJ&oi=fnd&pg=PR9&dq=machine+learning&ots=WRwOd9YiqP&sig=Dul6HqwR-ztFQdJMlCTU56lmeAk",
+        "doi": "https://www.researchgate.net/profile/Asif-Laghari/publication/351603970_Machine_Learning_in_Computer_Vision_A_Review/links/60814a6f881fa114b41c0459/Machine-Learning-in-Computer-Vision-A-Review.pdf",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "The psychology of computer vision",
+        "abstract": "2 Shlral shows how knowledge about blocks can help drive a hne finder over an intensity  array in order to find objects and create a hne drawing 3 Waltz confirms that the structure of a",
+        "authors": [
+            "PH Winston",
+            "B Horn"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1975",
+        "doi": "https://www.academia.edu/download/70279368/0031-3203_2876_2990020-020210926-14802-15hoc2j.pdf",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Handcrafted vs. non-handcrafted features for computer vision classification",
+        "abstract": "This work presents a generic computer vision system designed for exploiting trained deep  Convolutional Neural Networks (CNN) as a generic feature extractor and mixing these",
+        "authors": [
+            "L Nanni",
+            "S Ghidoni",
+            "S Brahnam"
+        ],
+        "journal_conference_name": "Pattern recognition",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2017",
+        "doi": "https://www.sciencedirect.com/science/article/pii/S0031320317302224",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision for human-machine interaction",
+        "abstract": "computer vision are leading to novel and radical changes in the way we interact with computers  new algorithms and powerful computers has led to breakthroughs in computer vision. In",
+        "authors": [
+            "R Cipolla",
+            "A Pentland",
+            "AP Pentland"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1998",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=Pe7gG0LxEUIC&oi=fnd&pg=PR7&dq=computer+vision&ots=O7qaFEMcTR&sig=KD0MG275n9PIBe1YKmP10kGRid8",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Deep learning vs. traditional computer vision",
+        "abstract": "computer vision techniques should be maintained. The paper will also explore how the two  sides of computer vision can  the ability to improve computer vision performance and to tackle",
+        "authors": [
+            "N O'Mahony",
+            "S Campbell",
+            "A Carvalho"
+        ],
+        "journal_conference_name": "… in computer vision …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2020",
+        "doi": "https://link.springer.com/chapter/10.1007/978-3-030-17795-9_10",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Rethinking the inception architecture for computer vision",
+        "abstract": "Convolutional networks are at the core of most stateof-the-art computer vision solutions for  a  factors for various use cases such as mobile vision and big-data scenarios. Here we are",
+        "authors": [
+            "C Szegedy",
+            "V Vanhoucke",
+            "S Ioffe"
+        ],
+        "journal_conference_name": "… on computer vision …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2016",
+        "doi": "https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Szegedy_Rethinking_the_Inception_CVPR_2016_paper.html",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "A survey of sensor planning in computer vision",
+        "abstract": ".) have been employed in several vision systems, illumination planning has been overlooked   Sensor planning is pertinent to a number of areas of robotics and computer vision that have",
+        "authors": [
+            "KA Tarabanis",
+            "PK Allen",
+            "RY Tsai"
+        ],
+        "journal_conference_name": "IEEE transactions on …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1995",
+        "doi": "https://ieeexplore.ieee.org/abstract/document/345940/",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Feature extraction and image processing for computer vision",
+        "abstract": "By virtue of the enormous breadth of the subject of image processing and computer vision,  we restricted the focus to feature extraction and image processing in computer vision for this",
+        "authors": [
+            "M Nixon",
+            "A Aguado"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2019",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=KcW-DwAAQBAJ&oi=fnd&pg=PP1&dq=computer+vision&ots=11lB1tWG9O&sig=oRBEok9cwhQVk10F3K7YyI81dj0",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Handbook of computer vision and applications with Cdrom",
+        "abstract": "From the Publisher: The Handbook of Computer Vision and Applications Three-Volume Set  covers one of the \"hottest\" subjects in today's intersection of Applied Physics, Computer",
+        "authors": [
+            "B Jahne",
+            "P Geissler",
+            "H Haussecker"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1999",
+        "doi": "https://dl.acm.org/doi/abs/10.5555/553575",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision in cell biology",
+        "abstract": "roles computer vision may  of computer vision in the interpretation of image data from light  microscopy, although a similar essay could be written easily about the roles of computer vision",
+        "authors": [
+            "G Danuser"
+        ],
+        "journal_conference_name": "Cell",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2011",
+        "doi": "https://www.cell.com/cell/fulltext/S0092-8674(11)01290-6",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision techniques in construction: a critical review",
+        "abstract": "computer vision for assisting on-site managerial tasks. This paper reviews studies on  computer vision in the past decade, with a focus on state-of-the-art methods in a typical vision-",
+        "authors": [
+            "S Xu",
+            "J Wang",
+            "W Shou",
+            "T Ngo",
+            "AM Sadick"
+        ],
+        "journal_conference_name": "… Methods in Engineering",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2021",
+        "doi": "https://link.springer.com/article/10.1007/s11831-020-09504-3",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision: basic principles",
+        "abstract": "shall refer to any such process as “computer vision” in this paper. We shall assume (as is  very often the case) that the general goal of a computer vision system is to recognize objects of",
+        "authors": [
+            "A Rosenfeld"
+        ],
+        "journal_conference_name": "Proceedings of the IEEE",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1988",
+        "doi": "https://ieeexplore.ieee.org/abstract/document/5961/",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Robust regression methods for computer vision: A review",
+        "abstract": "Computer Vision Without trying to give an exhaustive survey, in this section we enumerate  some of the computer vision  Since this is the case in numerous computer vision applications,",
+        "authors": [
+            "P Meer",
+            "D Mintz",
+            "A Rosenfeld",
+            "DY Kim"
+        ],
+        "journal_conference_name": "… journal of computer vision",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1991",
+        "doi": "https://link.springer.com/article/10.1007/BF00127126",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Performance characterization in computer vision",
+        "abstract": "vision systems. This suggests that there has been a cultural deficiency in the computer vision  community: computer vision  a computer vision task. Performance was a secondary issue.",
+        "authors": [
+            "RM Haralick"
+        ],
+        "journal_conference_name": "… of the British Machine Vision Conference, organised by …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1992",
+        "doi": "https://link.springer.com/chapter/10.1007/978-1-4471-3201-1_1",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision and applications: a guide for students and practitioners",
+        "abstract": "of computer vision, or who want an introduction to the basic principles. As a lecturer  computer  vision, I was surprised, however, to find negligible coverage of such core computer vision",
+        "authors": [
+            "B Jähne",
+            "H Haussecker"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2000",
+        "doi": "https://dl.acm.org/doi/abs/10.5555/348771",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision metrics: Survey, taxonomy, and analysis",
+        "abstract": "This work focuses on a slice through the field - Computer Vision Metrics – from the view of  feature description metrics, or how to describe, compute and design the macro-features and",
+        "authors": [
+            "S Krig"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2014",
+        "doi": "https://library.oapen.org/bitstream/handle/20.500.12657/28173/1001821.pdf",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Handbook of mathematical models in computer vision",
+        "abstract": "vision. Understanding and reproducing the 3D geometry of a scene is a fundamental component  of biological vision. In  prominent application domains of computer vision and in such a",
+        "authors": [
+            "N Paragios",
+            "Y Chen",
+            "OD Faugeras"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2006",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=pPSK7_9R4IsC&oi=fnd&pg=PR18&dq=computer+vision&ots=j4656DL_v2&sig=eifI57fnDaABm0niDKwf1N8MYFk",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "A practical introduction to computer vision with opencv",
+        "abstract": "Computer Vision is about how we can automate image or video  Computer vision systems  are becoming ubiquitous. They are  at the beginning of how computer vision can be employed,",
+        "authors": [
+            "K Dawson-Howe"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2014",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=PmKJCwAAQBAJ&oi=fnd&pg=PP28&dq=computer+vision&ots=bXi7aQu9wQ&sig=oZd0QbOSG-OU53VUyCxV7KJ6HgU",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "A review of computer vision techniques for the analysis of urban traffic",
+        "abstract": "analytics as computer-vision- , computer vision and video analytics become increasingly  important for intelligent transport systems (ITSs). This paper aims at introducing computer vision",
+        "authors": [
+            "N Buch",
+            "SA Velastin",
+            "J Orwell"
+        ],
+        "journal_conference_name": "IEEE Transactions on intelligent …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2011",
+        "doi": "https://ieeexplore.ieee.org/abstract/document/5734852/",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Attention mechanisms in computer vision: A survey",
+        "abstract": "Humans can naturally and effectively find salient regions in complex scenes. Motivated by  this observation, attention mechanisms were introduced into computer vision with the aim of",
+        "authors": [
+            "MH Guo",
+            "TX Xu",
+            "JJ Liu",
+            "ZN Liu",
+            "PT Jiang",
+            "TJ Mu"
+        ],
+        "journal_conference_name": "Computational visual …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2022",
+        "doi": "https://link.springer.com/article/10.1007/S41095-022-0271-Y",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision syndrome: a review",
+        "abstract": "to as computer vision syndrome. This article describes both the characteristics and treatment  modalities that are available at this time. Computer vision  to computer vision syndrome",
+        "authors": [
+            "C Blehm",
+            "S Vishnu",
+            "A Khattak",
+            "S Mitra",
+            "RW Yee"
+        ],
+        "journal_conference_name": "Survey of ophthalmology",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2005",
+        "doi": "https://www.sciencedirect.com/science/article/pii/S0039625705000093",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "VLFeat: An open and portable library of computer vision algorithms",
+        "abstract": "It aims at facilitating fast prototyping and reproducible research for computer vision scientists  and  , a library of computer vision algorithms for fast prototyping in computer vision research.",
+        "authors": [
+            "A Vedaldi",
+            "B Fulkerson"
+        ],
+        "journal_conference_name": "Proceedings of the 18th ACM international …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2010",
+        "doi": "https://dl.acm.org/doi/abs/10.1145/1873951.1874249",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "A guide to convolutional neural networks for computer vision",
+        "abstract": "application of CNNs in computer vision. It provides a  computer vision. Further, this text  describes and discusses case studies that are related to the application of CNN in computer vision",
+        "authors": [
+            "S Khan",
+            "H Rahmani",
+            "SAA Shah",
+            "M Bennamoun"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2018",
+        "doi": "https://link.springer.com/book/10.1007/978-3-031-01821-3",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Structured learning and prediction in computer vision",
+        "abstract": "of data are currently revolutionizing computer vision. These models  classes of structured  models in computer vision. Our focus is  of many methods in the computer vision literature.",
+        "authors": [
+            "S Nowozin",
+            "CH Lampert"
+        ],
+        "journal_conference_name": "… in Computer Graphics and Vision",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2011",
+        "doi": "https://www.nowpublishers.com/article/Details/CGV-033",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Multiple view geometry in computer vision",
+        "abstract": "connections to mathematics and computer science and looser connections  Computer  Vision algorithms after biological ones, but the fact of the matter is that (i) the way biological vision",
+        "authors": [
+            "R Hartley",
+            "A Zisserman"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2003",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=si3R3Pfa98QC&oi=fnd&pg=PR11&dq=computer+vision&ots=aUs0ly574I&sig=4dAJXDGgx3I6cJZppNbkXAjSIkA",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision on Mars",
+        "abstract": "computer vision for planetary rovers and landers and has four main parts. First, we review  major milestones in the development of computer vision  of computer vision algorithms used on",
+        "authors": [
+            "L Matthies",
+            "M Maimone",
+            "A Johnson",
+            "Y Cheng"
+        ],
+        "journal_conference_name": "… of Computer Vision",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2007",
+        "doi": "https://link.springer.com/article/10.1007/s11263-007-0046-z",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision and fuzzy-neural systems",
+        "abstract": "fuzzy-neural systems in computer vision. Recent advances in  the field of computer vision,  making it possible for computer vision  of computer vision, and the stages of a computer vision",
+        "authors": [
+            "AD Kulkarni"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2001",
+        "doi": "https://dl.acm.org/doi/abs/10.5555/516709",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision in surgery",
+        "abstract": "Research instead taught computers surgery indirectly with machine learning (ML)  Recent  advancements in computer vision (CV) have used deep learning to give computers human-like",
+        "authors": [
+            "TM Ward",
+            "P Mascagni",
+            "Y Ban",
+            "G Rosman",
+            "N Padoy"
+        ],
+        "journal_conference_name": "Surgery",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2021",
+        "doi": "https://www.sciencedirect.com/science/article/pii/S0039606020307492",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Color in computer vision: fundamentals and applications",
+        "abstract": "computer vision at the University of Amsterdam. Because of this long-term collaboration among  the authors, our research on color computer vision  in the field of computer vision, such as",
+        "authors": [
+            "T Gevers",
+            "A Gijsenij",
+            "J Van de Weijer",
+            "JM Geusebroek"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2012",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=DQhBT9T9qLAC&oi=fnd&pg=PP7&dq=computer+vision&ots=bGO7lXTb_V&sig=iu3W1uRuMFftreXfJyReyzWOMTE",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision in healthcare applications",
+        "abstract": "for computer vision and  computer vision about medical image processing and healthcare  applications and pave the way for new directions in medical images and computer vision",
+        "authors": [
+            "J Gao",
+            "Y Yang",
+            "P Lin",
+            "DS Park"
+        ],
+        "journal_conference_name": "Journal of healthcare …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2018",
+        "doi": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5857319/",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Sparse representation for computer vision and pattern recognition",
+        "abstract": "1Although the main focus of this paper is computer vision, similarly unconventional (and  noteworthy) applications of sparse representation arise in audio classification [40], [41], [45],",
+        "authors": [
+            "J Wright",
+            "Y Ma",
+            "J Mairal",
+            "G Sapiro"
+        ],
+        "journal_conference_name": "Proceedings of the …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2010",
+        "doi": "https://ieeexplore.ieee.org/abstract/document/5456194/",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision applied to super resolution",
+        "abstract": "of this technique differs in computer vision from other fields is  the SR problem in computer  vision is the estimation of the  Computer vision techniques applied to the SR problem have",
+        "authors": [
+            "D Capel",
+            "A Zisserman"
+        ],
+        "journal_conference_name": "IEEE Signal Processing Magazine",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2003",
+        "doi": "https://ieeexplore.ieee.org/abstract/document/1203211/",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Learning-based computer vision with intel's open source computer vision library.",
+        "abstract": "In this paper, we describe computer vision routines based on learning. Learning-based vision  has applications to image-based Web mining, image retrieval, video indexing, security, etc",
+        "authors": [
+            "G Bradski",
+            "A Kaehler",
+            "V Pisarevsky"
+        ],
+        "journal_conference_name": "Intel technology journal",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2005",
+        "doi": "https://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=1535864X&AN=17208536&h=uPJno4iDXiQZ%2FM7%2FCaih3vtF4rNnQx0baZqhSnK9TOqazNEe653bWy2AeVUv91vAzcXM6ybys7JBIKNl9ijwKg%3D%3D&crl=c",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision technology for food quality evaluation",
+        "abstract": "developments in computer vision technology, and  computer vision technology is, what it  can do, and how to apply it for food quality evaluation-Includes a wide variety of computer vision",
+        "authors": [
+            "DW Sun"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2016",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=cM8cCwAAQBAJ&oi=fnd&pg=PP1&dq=computer+vision&ots=dpV7VF7yop&sig=yh9TJhEPVETbF-YMiWEOGcdAWoY",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision for interactive computer graphics",
+        "abstract": "computer vision algorithms that capitalize on the advantages of interactive graphics applications.  We developed or applied various vision  visionbased interfaces for several computer",
+        "authors": [
+            "WT Freeman",
+            "DB Anderson",
+            "P Beardsley"
+        ],
+        "journal_conference_name": "IEEE Computer …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1998",
+        "doi": "https://ieeexplore.ieee.org/abstract/document/674971/",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Concise computer vision",
+        "abstract": "In computer vision we may want to know how far away a building is to a camera, whether  a vehicle drives in the middle of its lane, how many people are in a scene, or we even want",
+        "authors": [
+            "R Klette"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2014",
+        "doi": "https://link.springer.com/content/pdf/10.1007/978-1-4471-6320-6.pdf",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "3D computer vision: efficient methods and applications",
+        "abstract": "This work provides an introduction to the foundations of three-dimensional computer vision   In the field of computer vision, an alternative framework based on projective geometry has",
+        "authors": [
+            "C Wöhler"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2009",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=sfxDAAAAQBAJ&oi=fnd&pg=PA3&dq=computer+vision&ots=BDq1txtAXy&sig=Fa0m4gn2wZiJsGp7QaR8GyTaGq4",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Real-time computer vision with OpenCV",
+        "abstract": "CoMpUter vIsIon Is a rapidly growing field devoted to analyzing, modifying, and high-level  understanding of images. Its objective is to determine what is happening in front of a camera and",
+        "authors": [
+            "K Pulli",
+            "A Baksheev",
+            "K Kornyakov"
+        ],
+        "journal_conference_name": "Communications of the …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2012",
+        "doi": "https://dl.acm.org/doi/fullHtml/10.1145/2184319.2184337",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "A review of convolutional neural networks in computer vision",
+        "abstract": "Computer vision is gaining popularity as a buzzword in the field of image  of computer vision  (Singh and Vishwakarma 2019). Over the years, deep learning advances in computer vision",
+        "authors": [
+            "X Zhao",
+            "L Wang",
+            "Y Zhang",
+            "X Han",
+            "M Deveci"
+        ],
+        "journal_conference_name": "Artificial Intelligence …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2024",
+        "doi": "https://link.springer.com/article/10.1007/s10462-024-10721-6",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Dictionary of computer vision and image processing",
+        "abstract": "of the Dictionary of Computer Vision & Image Processing is a  , computer vision and related  fields including machine vision.  on image processing and machine vision terms; Includes the",
+        "authors": [
+            "RB Fisher",
+            "TP Breckon",
+            "K Dawson-Howe",
+            "A Fitzgibbon"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2013",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=TaEQAgAAQBAJ&oi=fnd&pg=PT6&dq=computer+vision&ots=U-AvmCooe4&sig=LL6GudoGceyqqEW_Um0liKyQVB8",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Elastica and computer vision",
+        "abstract": "redoing Euler but also an earlier computer vision scientist, [8]  the point of view of Bayerian  computer vision, which leads to  The function we want for computer vision is the probability",
+        "authors": [
+            "D Mumford"
+        ],
+        "journal_conference_name": "Algebraic Geometry and its Applications: Collections of …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1994",
+        "doi": "https://link.springer.com/content/pdf/10.1007/978-1-4612-2628-4_31.pdf",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Florence: A new foundation model for computer vision",
+        "abstract": "tion, we introduce a new computer vision foundation model,  be easily adapted for various  computer vision tasks, such as  our vision foundation model to serve general purpose vision",
+        "authors": [
+            "L Yuan",
+            "D Chen",
+            "YL Chen",
+            "N Codella",
+            "X Dai"
+        ],
+        "journal_conference_name": "arXiv preprint arXiv …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2021",
+        "doi": "https://arxiv.org/abs/2111.11432",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision applications in construction: Current state, opportunities & challenges",
+        "abstract": "updated and categorized overview of computer vision applications in construction by   Computer Vision. We restrict the focus to four areas that can benefit the most from computer vision -",
+        "authors": [
+            "S Paneru",
+            "I Jeelani"
+        ],
+        "journal_conference_name": "Automation in Construction",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2021",
+        "doi": "https://www.sciencedirect.com/science/article/pii/S0926580521003915",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "MINPRAN: A new robust estimator for computer vision",
+        "abstract": "Because these times are impractical for computer vision applications, we employ a random  sampling technique [ 81, [ 151, [ 191, [20] to find an approximate minimum. Assuming p",
+        "authors": [
+            "CV Stewart"
+        ],
+        "journal_conference_name": "IEEE Transactions on Pattern Analysis and …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1995",
+        "doi": "https://ieeexplore.ieee.org/abstract/document/464558/",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Scale-space theory in computer vision",
+        "abstract": "such as to solve important problems in computer vision. The subjects range from a  ) to  more open ended algorithmic methods for computer vision problems. The latter methods",
+        "authors": [
+            "T Lindeberg"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1993",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=u21OX41EbVkC&oi=fnd&pg=PA1&dq=computer+vision&ots=cHcmeFlOJd&sig=1j7uGgUmMtIijIeGKRq1iay6P24",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Photogrammetric computer vision",
+        "abstract": "This is essential when applying vision techniques in practice computer vision, and computer  graphics, and for research and development in statistically based geometric computer vision",
+        "authors": [
+            "W Förstner",
+            "BP Wrobel"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2016",
+        "doi": "https://link.springer.com/content/pdf/10.1007/978-3-319-11550-4.pdf",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Kernel methods in computer vision",
+        "abstract": "Computer Vision” gives an overview of the kernel functions that have been used in the area  of computer vision , we give examples from the computer vision research literature where the",
+        "authors": [
+            "CH Lampert"
+        ],
+        "journal_conference_name": "… and Trends® in Computer Graphics and Vision",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2009",
+        "doi": "https://www.nowpublishers.com/article/Details/CGV-027",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Geometry-driven diffusion in computer vision",
+        "abstract": "The workshop in Stockholm, May 1994, in connection with the 3rd European Conference  on Computer Vision saw the final draft presentation of this book as first tangible result of the",
+        "authors": [
+            "BMH Romeny"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2013",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=Fr2rCAAAQBAJ&oi=fnd&pg=PR13&dq=computer+vision&ots=kGbWTpVgsF&sig=FyiVgo2ZyKw8tULc7H3_rAdBEm4",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Template matching techniques in computer vision: theory and practice",
+        "abstract": "attention from the computer vision community for a variety of  computer vision solutions to  the problem of automatic object location and recognition. While many books on computer vision",
+        "authors": [
+            "R Brunelli"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2009",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=AowB9dRNTqYC&oi=fnd&pg=PR5&dq=computer+vision&ots=0Lk3zbnN0z&sig=dCFF2lpi82LstgDJaKH9sOXp70c",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Camera models and fundamental concepts used in geometric computer vision",
+        "abstract": "After describing camera models, we review central concepts of geometric computer vision,  including camera calibration, epipolar and multi-view geometry, and structure-from-motion",
+        "authors": [
+            "P Sturm",
+            "S Ramalingam",
+            "JP Tardif"
+        ],
+        "journal_conference_name": "… ® in Computer …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2011",
+        "doi": "https://www.nowpublishers.com/article/Details/CGV-023",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision for music identification",
+        "abstract": "iar 2-D computer vision problems.  computer vision ideas have immediate applicability and  direct relevance to many other domains and hope that this paper encourages computer vision",
+        "authors": [
+            "Y Ke",
+            "D Hoiem",
+            "R Sukthankar"
+        ],
+        "journal_conference_name": "… Conference on Computer Vision …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2005",
+        "doi": "https://ieeexplore.ieee.org/abstract/document/1467322/",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Robust parameter estimation in computer vision",
+        "abstract": "Estimation techniques in computer vision applications must estimate accurate model pa  literature and others described in the computer vision literature, have been used in solving these",
+        "authors": [
+            "CV Stewart"
+        ],
+        "journal_conference_name": "SIAM review",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1999",
+        "doi": "https://epubs.siam.org/doi/abs/10.1137/S0036144598345802",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision algorithms for intersection monitoring",
+        "abstract": "of Computer Science and Engineering at the University of Minnesota. His research interests  include computer vision, robotics, transportation applications, and computer graphics.",
+        "authors": [
+            "H Veeraraghavan",
+            "O Masoud"
+        ],
+        "journal_conference_name": "IEEE Transactions …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2003",
+        "doi": "https://ieeexplore.ieee.org/abstract/document/1253216/",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Deep learning in computer vision: principles and applications",
+        "abstract": "The linkages between computer vision and machine learning, and between it and artificial   the linkage between computer vision and deep learning. Computer vision has moved forward,",
+        "authors": [
+            "M Hassaballah",
+            "AI Awad"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2020",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=10jpDwAAQBAJ&oi=fnd&pg=PP1&dq=computer+vision&ots=wIo7GtJyZ3&sig=W1ZLlHFd2gUt7wUCxVn7xl2cOsM",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Learning OpenCV: Computer vision with the OpenCV library",
+        "abstract": "middle of the rapidly expanding field of computer vision. Written by the creators of the   computer vision and demonstrates how you can quickly build applications that enable computers",
+        "authors": [
+            "G Bradski",
+            "A Kaehler"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2008",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=seAgiOfu2EIC&oi=fnd&pg=PR3&dq=computer+vision&ots=hWH58obCTa&sig=64Pw6slIRkEYYqemKVE6L35CT_k",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Handbook of computer vision algorithms in image algebra",
+        "abstract": "used computer vision algorithms that we believe represents a core of knowledge that all  computer vision  This survey is not meant to be an encyclopedic summary of computer vision",
+        "authors": [
+            "JN Wilson",
+            "GX Ritter"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2000",
+        "doi": "https://www.taylorfrancis.com/books/mono/10.1201/9781420042382/handbook-computer-vision-algorithms-image-algebra-joseph-wilson-gerhard-ritter",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Readings in computer vision: issues, problem, principles, and paradigms",
+        "abstract": "We include as our only review paper a historical perspective of computer vision written by  A.  This volume is structured to reflect the view that the computer vision paradigm can be",
+        "authors": [
+            "MA Fischler",
+            "O Firschein"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2014",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=TQ2jBQAAQBAJ&oi=fnd&pg=PP1&dq=computer+vision&ots=cV8iTlNlWy&sig=bgb2laawQMaRojRh7FEKA-dSg2I",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Multiple view geometry in computer vision",
+        "abstract": "that in the 1960s the difficulty of making a computer see was enormously underestimated.  It is  a major contribution that no one concerned with computer vision can afford to ignore.",
+        "authors": [
+            "AM Andrew"
+        ],
+        "journal_conference_name": "Kybernetes",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2001",
+        "doi": "https://www.emerald.com/insight/content/doi/10.1108/k.2001.30.9_10.1333.2/full/html",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Learning to resize images for computer vision tasks",
+        "abstract": "nets have revolutionized computer vision in recent years, one  trained with a baseline vision  model. This learned CNN- the classification baselines for other vision tasks. To this end, we",
+        "authors": [
+            "H Talebi",
+            "P Milanfar"
+        ],
+        "journal_conference_name": "… conference on computer vision",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2021",
+        "doi": "http://openaccess.thecvf.com/content/ICCV2021/html/Talebi_Learning_To_Resize_Images_for_Computer_Vision_Tasks_ICCV_2021_paper.html",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computational symmetry in computer vision and computer graphics",
+        "abstract": "potential power that computational symmetry affords, we offer this survey to the computer  vision and computer graphics communities. This survey provides a succinct summary of the",
+        "authors": [
+            "Y Liu",
+            "H Hel-Or",
+            "CS Kaplan"
+        ],
+        "journal_conference_name": "… Trends® in Computer …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2010",
+        "doi": "https://www.nowpublishers.com/article/Details/CGV-008",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision for visual effects",
+        "abstract": "software packages to create scenes that support a director's vision. They're attuned to the  film the field of computer vision, the main subject of this book. Computer vision broadly involves",
+        "authors": [
+            "RJ Radke"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2013",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=MgIVyAWf9VUC&oi=fnd&pg=PA55&dq=computer+vision&ots=gq5jiLwsXQ&sig=cL2kOGcBWrJiIIybQzZ2BLLxRGg",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "OpenVIDIA: parallel GPU computer vision",
+        "abstract": "as a general-purpose parallel computer architecture for fast computer vision and image  processing. Realtime image processing and computer vision algorithms can be computationally",
+        "authors": [
+            "J Fung",
+            "S Mann"
+        ],
+        "journal_conference_name": "Proceedings of the 13th annual ACM international …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2005",
+        "doi": "https://dl.acm.org/doi/abs/10.1145/1101149.1101334",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "A survey of computer vision methods for locating fruit on trees",
+        "abstract": "This article has reviewed different computer vision approaches for the detection of fruit on  a tree. A description of each reported approach in this field was presented, emphasizing the",
+        "authors": [
+            "AR Jimenez",
+            "R Ceres",
+            "JL Pons"
+        ],
+        "journal_conference_name": "Transactions of the ASAE",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2000",
+        "doi": "https://elibrary.asabe.org/abstract.asp?aid=3096",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Crowdsourcing in computer vision",
+        "abstract": "Computer vision systems require large amounts of manually  the types of annotations  computer vision researchers have  (eg, visual story-telling) vision tasks. We then summarize key",
+        "authors": [
+            "A Kovashka",
+            "O Russakovsky",
+            "L Fei-Fei"
+        ],
+        "journal_conference_name": "… Trends® in computer …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2016",
+        "doi": "https://www.nowpublishers.com/article/Details/CGV-071",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Accommodation in computer vision",
+        "abstract": "Reproduced with permission of the copyright owner. Further reproduction prohibited without  permission. Page 1 Reproduced with permission of the copyright owner. Further reproduction",
+        "authors": [
+            "JM Tenenbaum"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1971",
+        "doi": "https://search.proquest.com/openview/15362e3f3c23dbbfe5ebcac8b7a565f1/1.pdf?pq-origsite=gscholar&cbl=18750&diss=y",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision technology in agricultural automation—A review",
+        "abstract": "computer instead of the human eye to identify, track and measure targets for further image  processing. With the development of computer vision,  future, computer vision technology will",
+        "authors": [
+            "H Tian",
+            "T Wang",
+            "Y Liu",
+            "X Qiao",
+            "Y Li"
+        ],
+        "journal_conference_name": "Information processing in agriculture",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2020",
+        "doi": "https://www.sciencedirect.com/science/article/pii/S2214317319301751",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Deep learning in computer vision: A critical review of emerging techniques and application scenarios",
+        "abstract": "Deep learning has been overwhelmingly successful in computer vision (CV), natural language  processing, and video/speech recognition. In this paper, our focus is on CV. We provide a",
+        "authors": [
+            "J Chai",
+            "H Zeng",
+            "A Li",
+            "EWT Ngai"
+        ],
+        "journal_conference_name": "Machine Learning with Applications",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2021",
+        "doi": "https://www.sciencedirect.com/science/article/pii/S2666827021000670",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Improving quality inspection of food products by computer vision––a review",
+        "abstract": "Computer vision provides one alternative for an automated, non- Computer vision has  been successfully adopted for the  elements of a computer vision system and emphasises the",
+        "authors": [
+            "T Brosnan",
+            "DW Sun"
+        ],
+        "journal_conference_name": "Journal of food engineering",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2004",
+        "doi": "https://www.sciencedirect.com/science/article/pii/S0260877403001833",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Deep learning-enabled medical computer vision",
+        "abstract": "in the development of modern computer vision techniques— neural networks, including  the vision tasks they enable, in the  workflows can integrate computer vision to enhance care.",
+        "authors": [
+            "A Esteva",
+            "K Chou",
+            "S Yeung",
+            "N Naik",
+            "A Madani"
+        ],
+        "journal_conference_name": "NPJ digital …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2021",
+        "doi": "https://www.nature.com/articles/s41746-020-00376-2",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Advances in two-dimensional and three-dimensional computer vision",
+        "abstract": "Computer vision is a broad term, referring to a wide range of engineering applications from   vision to object recognition. In this review, the term computer vision will refer to computer-",
+        "authors": [
+            "MA Sutton",
+            "SR McNeill",
+            "JD Helm",
+            "YJ Chao"
+        ],
+        "journal_conference_name": "Photomechanics",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2000",
+        "doi": "https://link.springer.com/chapter/10.1007/3-540-48800-6_10",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "A comprehensive review of current local features for computer vision",
+        "abstract": "Local features are widely utilized in a large number of applications, eg, object categorization,  image retrieval, robust matching, and robot localization. In this review, we focus on",
+        "authors": [
+            "J Li",
+            "NM Allinson"
+        ],
+        "journal_conference_name": "Neurocomputing",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2008",
+        "doi": "https://www.sciencedirect.com/science/article/pii/S0925231208001124",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Unrealcv: Connecting computer vision to unreal engine",
+        "abstract": "Computer vision has benefited enormously from large  This motivates the design of realistic  virtual worlds for computer vision  between Unreal Engine and computer vision researchers.",
+        "authors": [
+            "W Qiu",
+            "A Yuille"
+        ],
+        "journal_conference_name": "Computer Vision–ECCV 2016 Workshops: Amsterdam …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2016",
+        "doi": "https://link.springer.com/chapter/10.1007/978-3-319-49409-8_75",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision, models and inspection",
+        "abstract": "is just becoming possible with computer vision techniques, and a  by computer vision  methods. Furthermore, an introduction to a selection of basic concepts and ideas in computer vision",
+        "authors": [
+            "AD Marshall",
+            "R Martin"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1992",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=5JfsCgAAQBAJ&oi=fnd&pg=PR5&dq=computer+vision&ots=1h-y3yDgDg&sig=EJkgeuNIdQJ5gVA-31n2gNZICRE",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision for assistive technologies",
+        "abstract": "In particular this paper concentrates on a set of cross-application Computer Vision tasks that   For each task the paper analyzes the Computer Vision algorithms recently involved in the",
+        "authors": [
+            "M Leo",
+            "G Medioni",
+            "M Trivedi",
+            "T Kanade"
+        ],
+        "journal_conference_name": "Computer Vision and …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2017",
+        "doi": "https://www.sciencedirect.com/science/article/pii/S1077314216301357",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision technology for food quality assurance",
+        "abstract": "Computer vision systems are being used increasingly in the food industry for quality   computer hardware and software has led to many significant advances in computer vision",
+        "authors": [
+            "S Gunasekaran"
+        ],
+        "journal_conference_name": "Trends in Food Science & Technology",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1996",
+        "doi": "https://www.sciencedirect.com/science/article/pii/0924224496100285",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Deep Convolution Neural Networks in Computer Vision: a Review: a Review",
+        "abstract": "techniques have made tremendous progress in computer vision, especially in the field of   applications of computer vision, phonetic recognition, voice search, conversational speech",
+        "authors": [
+            "HJ Yoo"
+        ],
+        "journal_conference_name": "IEIE Transactions on Smart Processing & Computing",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2015",
+        "doi": "https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE06217768",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Markov random field models in computer vision",
+        "abstract": "A variety of computer vision problems can be optimally posed  in low and high level computer  vision. The unification is made  Such unification provides a systematic approach for vision",
+        "authors": [
+            "SZ Li"
+        ],
+        "journal_conference_name": "… '94: Third European Conference on Computer Vision …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1994",
+        "doi": "https://link.springer.com/chapter/10.1007/BFb0028368",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "The use of computer vision technologies in aquaculture–a review",
+        "abstract": "Application of computer vision technologies in aquaculture,  art and the evolution of computer  vision in aquaculture, at all  in the field of computer vision which have made some progress,",
+        "authors": [
+            "B Zion"
+        ],
+        "journal_conference_name": "Computers and electronics in agriculture",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2012",
+        "doi": "https://www.sciencedirect.com/science/article/pii/S0168169912001950",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision and pattern Recognition",
+        "abstract": "Ltd., Vietnam), Hoang-Anh Pham (HCMC University of Technology, VNU-HCM & Faculty  of Computer Science and Engineering, Vietnam)  Nguyen (Advanced Program in",
+        "authors": [
+            "N Huy",
+            "M Le Nguyen"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2016",
+        "doi": "https://scholar.archive.org/work/blccsozzzbb4rcc2e3w67d5sfi/access/wayback/https://ieeexplore.ieee.org/ielx7/8553666/8573236/08573403.pdf",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision algorithms and hardware implementations: A survey",
+        "abstract": "The field of computer vision is experiencing a great-leap-forward development today. This  paper aims at providing a comprehensive survey of the recent progress on computer vision",
+        "authors": [
+            "X Feng",
+            "Y Jiang",
+            "X Yang",
+            "M Du",
+            "X Li"
+        ],
+        "journal_conference_name": "Integration",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2019",
+        "doi": "https://www.sciencedirect.com/science/article/pii/S0167926019301762",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision in the interface",
+        "abstract": "Computer vision research has traditionally been motivated by a few main application areas,  such as biological vision modeling, robot navigation and manipulation, surveillance, medical",
+        "authors": [
+            "M Turk"
+        ],
+        "journal_conference_name": "Communications of the ACM",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2004",
+        "doi": "https://dl.acm.org/doi/fullHtml/10.1145/962081.962107",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "A fourier perspective on model robustness in computer vision",
+        "abstract": "Achieving robustness to distributional shift is a longstanding and challenging goal of  computer vision. Data augmentation is a commonly used approach for improving robustness,",
+        "authors": [
+            "D Yin",
+            "R Gontijo Lopes",
+            "J Shlens"
+        ],
+        "journal_conference_name": "Advances in Neural …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2019",
+        "doi": "https://proceedings.neurips.cc/paper_files/paper/2019/hash/b05b57f6add810d3b7490866d74c0053-Abstract.html",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Fashion meets computer vision: A survey",
+        "abstract": "As the revolution of computer vision (CV) with artificial intelligence (AI) is underway, AI is   However, thanks to the rapid development of computer vision, there are far more than these two",
+        "authors": [
+            "WH Cheng",
+            "S Song",
+            "CY Chen",
+            "SC Hidayati"
+        ],
+        "journal_conference_name": "ACM Computing Surveys …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2021",
+        "doi": "https://dl.acm.org/doi/abs/10.1145/3447239",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Learning techniques used in computer vision for food quality evaluation: a review",
+        "abstract": "Learning techniques have been applied increasingly for food quality evaluation using  computer vision in recent years. This paper reviews recent advances in learning techniques for",
+        "authors": [
+            "CJ Du",
+            "DW Sun"
+        ],
+        "journal_conference_name": "Journal of food engineering",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2006",
+        "doi": "https://www.sciencedirect.com/science/article/pii/S0260877404005904",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Mahotas: Open source software for scriptable computer vision",
+        "abstract": "is a computer vision library for Python. It contains traditional image processing functionality  such as filtering and morphological operations as well as more modern computer vision",
+        "authors": [
+            "LP Coelho"
+        ],
+        "journal_conference_name": "arXiv preprint arXiv:1211.4907",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2012",
+        "doi": "https://arxiv.org/abs/1211.4907",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision and applications: a guide for students and practitioners",
+        "abstract": "approach to computer vision. The whole vision process from image formation to measuring,  recognition, or reacting is regarded as an integral process. Computer vision is understood as",
+        "authors": [
+            "B Jahne"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2000",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=lcSccjdqmpkC&oi=fnd&pg=PP1&dq=computer+vision&ots=xPJ3sgKzCO&sig=XKX7aAD6Ib4S7oTpNVW31XoN4i0",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "A critical review on computer vision and artificial intelligence in food industry",
+        "abstract": "vision and learning methods for the improvement of food industry is termed as computer  vision  This review contributes to provide an insight into state-of-the-art AI and computer vision",
+        "authors": [
+            "V Kakani",
+            "VH Nguyen",
+            "BP Kumar",
+            "H Kim"
+        ],
+        "journal_conference_name": "Journal of Agriculture …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2020",
+        "doi": "https://www.sciencedirect.com/science/article/pii/S2666154320300144",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Recent developments in computer vision-based analytical chemistry: A tutorial review",
+        "abstract": "This review will focus on the use of computer vision in  However, this review will not cover  computer vision applications that  In this tutorial, computer vision-based analytical procedures",
+        "authors": [
+            "LF Capitán-Vallvey",
+            "N Lopez-Ruiz"
+        ],
+        "journal_conference_name": "Analytica chimica …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2015",
+        "doi": "https://www.sciencedirect.com/science/article/pii/S000326701501243X",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Does computer vision matter for action?",
+        "abstract": "Our second finding is that some computer vision capabilities appear to be more impactful  for mobile sensorimotor operation than others. Specifically, depth estimation and semantic",
+        "authors": [
+            "B Zhou",
+            "P Krähenbühl",
+            "V Koltun"
+        ],
+        "journal_conference_name": "Science Robotics",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2019",
+        "doi": "https://www.science.org/doi/abs/10.1126/scirobotics.aaw6661",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Enhanced computer vision with microsoft kinect sensor: A review",
+        "abstract": "computer vision. This paper presents a comprehensive review of recent Kinect-based computer  vision  The reviewed approaches are classified according to the type of vision problems",
+        "authors": [
+            "J Han",
+            "L Shao",
+            "D Xu",
+            "J Shotton"
+        ],
+        "journal_conference_name": "IEEE transactions on …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2013",
+        "doi": "https://ieeexplore.ieee.org/abstract/document/6547194/",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "CAGD-based computer vision",
+        "abstract": "vision systems has become the focus of research in the context of manufacturing automation.  This paper explores the connection between CAGD and computer vision in computer vision",
+        "authors": [
+            "C Hansen",
+            "TC Henderson"
+        ],
+        "journal_conference_name": "IEEE Transactions on pattern …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1989",
+        "doi": "https://ieeexplore.ieee.org/abstract/document/42856/",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision signal processing on graphics processing units",
+        "abstract": "computer graphics and computer vision are inverses of one another. Special purpose  computer vision hardware is rarely found in typical mass-produced personal computers, but",
+        "authors": [
+            "J Fung",
+            "S Mann"
+        ],
+        "journal_conference_name": "… Conference on Acoustics, Speech, and Signal …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2004",
+        "doi": "https://ieeexplore.ieee.org/abstract/document/1327055/",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Fruits and vegetables quality evaluation using computer vision: A review",
+        "abstract": "In recent years, various algorithms for sorting and grading are done by various researchers  using computer vision. This paper presents a detailed overview of various methods ie",
+        "authors": [
+            "A Bhargava",
+            "A Bansal"
+        ],
+        "journal_conference_name": "Journal of King Saud University-Computer and …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2021",
+        "doi": "https://www.sciencedirect.com/science/article/pii/S131915781830209X",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision for sports: Current applications and research topics",
+        "abstract": "of computer vision techniques to help the competitors, coaches and audience. This paper  discusses a selection of current commercial applications that use computer vision for sports",
+        "authors": [
+            "G Thomas",
+            "R Gade",
+            "TB Moeslund",
+            "P Carr"
+        ],
+        "journal_conference_name": "Computer Vision and …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2017",
+        "doi": "https://www.sciencedirect.com/science/article/pii/S1077314217300711",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Colour measurements by computer vision for food quality control–A review",
+        "abstract": "Computer vision is a promising technique currently  the fundamentals and applications of  computer vision for food colour  At last, advantages and disadvantages of computer vision for",
+        "authors": [
+            "D Wu",
+            "DW Sun"
+        ],
+        "journal_conference_name": "Trends in Food Science & Technology",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2013",
+        "doi": "https://www.sciencedirect.com/science/article/pii/S0924224412001835",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Robust principal component analysis for computer vision",
+        "abstract": "A full review of PCA applications in computer vision is beyond the scope of this paper. We  focus here on the robustness of previous PCA methods. Note that there are two issues of",
+        "authors": [
+            "F De la Torre",
+            "MJ Black"
+        ],
+        "journal_conference_name": "… Conference on Computer Vision …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2001",
+        "doi": "https://ieeexplore.ieee.org/abstract/document/937541/",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Robust clustering with applications in computer vision",
+        "abstract": "The clustering algorithm was successfully applied to several computer vision problems  formulated in  [19], we give a detailed analysis of these methods in the context of computer vision.",
+        "authors": [
+            "JM Jolion",
+            "P Meer",
+            "S Bataouche"
+        ],
+        "journal_conference_name": "IEEE transactions on pattern …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1991",
+        "doi": "https://sites.rutgers.edu/peter-meer/wp-content/uploads/sites/69/2018/12/robcluster.pdf",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Mastering OpenCV with practical computer vision projects",
+        "abstract": "Ievgen is the author of the Computer Vision Talks blog (http://computer-vision-talks.com ),  where he publishes research articles and tutorials pertaining to computer vision and",
+        "authors": [
+            "DL Baggio"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2012",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=UjWoIFHcr58C&oi=fnd&pg=PT9&dq=computer+vision&ots=Scg4BAkt1x&sig=3Yi4kqBpzzVE460eQRbKia0DeXA",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Head pose estimation in computer vision: A survey",
+        "abstract": "that presents a unique challenge for computer vision systems. Compared to face detection  and recognition, which have been the primary foci of face-related vision research, identity-",
+        "authors": [
+            "E Murphy-Chutorian",
+            "MM Trivedi"
+        ],
+        "journal_conference_name": "IEEE transactions on pattern …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2008",
+        "doi": "https://ieeexplore.ieee.org/abstract/document/4497208/",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Crowd analysis using computer vision techniques",
+        "abstract": "automatically captured using computer vision techniques, and used to  as ground truth for  computer vision algorithms, some  analysis techniques based on computer vision, pointing out",
+        "authors": [
+            "JCSJ Junior",
+            "SR Musse",
+            "CR Jung"
+        ],
+        "journal_conference_name": "IEEE Signal Processing …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2010",
+        "doi": "https://ieeexplore.ieee.org/abstract/document/5562657/",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Calibration and orientation of cameras in computer vision",
+        "abstract": "situation in the research fields of photogrammetry and computer vision. We hope that this  book  If readers from photogrammetry and computer vision find the material equally rewarding",
+        "authors": [
+            "A Gruen",
+            "TS Huang"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2013",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=eZGqCAAAQBAJ&oi=fnd&pg=PA5&dq=computer+vision&ots=gHR0CK9rUR&sig=LbURPeYpg0JE1lENBdKROVBKO7E",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Vision as process: basic research on computer vision systems",
+        "abstract": "Human and animal vision systems have been driven by the pressures of evolution to become  capable of perceiving and reacting to their environments as close to instantaneously as",
+        "authors": [
+            "JL Crowley",
+            "HI Christensen",
+            "A Chehikian"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1995",
+        "doi": "https://link.springer.com/book/9783540581437",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Large image datasets: A pyrrhic win for computer vision?",
+        "abstract": "In this paper we investigate problematic practices and consequences of large scale vision  datasets (LSVDs). We examine broad issues such as the question of consent and justice as",
+        "authors": [
+            "A Birhane",
+            "VU Prabhu"
+        ],
+        "journal_conference_name": "… on Applications of Computer Vision  …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2021",
+        "doi": "https://ieeexplore.ieee.org/abstract/document/9423393/",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Generative adversarial networks in computer vision: A survey and taxonomy",
+        "abstract": "challenges relevant to computer vision. Accordingly, we  computer vision application  requirements. As we do this we also discuss the most compelling applications in computer vision in",
+        "authors": [
+            "Z Wang",
+            "Q She",
+            "TE Ward"
+        ],
+        "journal_conference_name": "ACM Computing Surveys (CSUR)",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2021",
+        "doi": "https://dl.acm.org/doi/abs/10.1145/3439723",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision using local binary patterns",
+        "abstract": "Vision is also a key component for building artificial systems that can perceive and understand  their environment. Computer vision  make human-computer interaction more natural. With",
+        "authors": [
+            "M Pietikäinen",
+            "A Hadid",
+            "G Zhao",
+            "T Ahonen"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2011",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=wBrZz9FiERsC&oi=fnd&pg=PR3&dq=computer+vision&ots=Xr7ToO1bcv&sig=voX7Ej65UYzL1wkAk5Py8LLtMiM",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Review of weed detection methods based on computer vision",
+        "abstract": "In recent years, some scholars have used various computer vision methods to achieve  this purpose. This review elaborates the two aspects of using traditional image-processing",
+        "authors": [
+            "Z Wu",
+            "Y Chen",
+            "B Zhao",
+            "X Kang",
+            "Y Ding"
+        ],
+        "journal_conference_name": "Sensors",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2021",
+        "doi": "https://www.mdpi.com/1424-8220/21/11/3647",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Applications of computer vision in plant pathology: a survey",
+        "abstract": "Computer vision techniques have proven to play an important role in the number of  In this  paper, we have surveyed the number of articles that adopt the concept of computer vision and",
+        "authors": [
+            "SS Chouhan",
+            "UP Singh",
+            "S Jain"
+        ],
+        "journal_conference_name": "Archives of computational methods in …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2020",
+        "doi": "https://link.springer.com/article/10.1007/s11831-019-09324-0",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Pixhawk: A system for autonomous flight using onboard computer vision",
+        "abstract": "The MAV navigates based on onboard processed computer vision in GPS-denied in- and  outdoor  Experimental results show successful flight with a range of onboard computer vision",
+        "authors": [
+            "L Meier",
+            "P Tanskanen",
+            "F Fraundorfer"
+        ],
+        "journal_conference_name": "… on robotics and …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2011",
+        "doi": "https://ieeexplore.ieee.org/abstract/document/5980229/",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "CNN variants for computer vision: History, architecture, application, challenges and future scope",
+        "abstract": "Computer vision is becoming an increasingly trendy word in the area of image processing.  With the emergence of computer vision  ) has benefited the computer vision community by",
+        "authors": [
+            "D Bhatt",
+            "C Patel",
+            "H Talsania",
+            "J Patel",
+            "R Vaghela"
+        ],
+        "journal_conference_name": "Electronics",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2021",
+        "doi": "https://www.mdpi.com/2079-9292/10/20/2470",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Kornia: an open source differentiable computer vision library for pytorch",
+        "abstract": "computer vision library which consists of a set of differentiable routines and modules to solve  generic computer vision  This paper introduces Kornia, an open source computer vision",
+        "authors": [
+            "E Riba",
+            "D Mishkin",
+            "D Ponsa"
+        ],
+        "journal_conference_name": "… of Computer Vision",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2020",
+        "doi": "http://openaccess.thecvf.com/content_WACV_2020/html/Riba_Kornia_an_Open_Source_Differentiable_Computer_Vision_Library_for_PyTorch_WACV_2020_paper.html",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Vision Transformers in medical computer vision—A contemplative retrospection",
+        "abstract": "research directions for medical computer vision researchers.  computer vision community  and medical specialists to foster future research and development in medical computer vision.",
+        "authors": [
+            "A Parvaiz",
+            "MA Khalid",
+            "R Zafar",
+            "H Ameer",
+            "M Ali"
+        ],
+        "journal_conference_name": "… Applications of Artificial …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2023",
+        "doi": "https://www.sciencedirect.com/science/article/pii/S095219762300310X",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision syndrome: A review",
+        "abstract": "BACKGROUND: Computer vision syndrome (CVS) is a collection of symptoms related to  prolonged work at a computer display. OBJECTIVE: This article reviews the current knowledge",
+        "authors": [
+            "S Gowrisankaran",
+            "JE Sheedy"
+        ],
+        "journal_conference_name": "Work",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2015",
+        "doi": "https://journals.sagepub.com/doi/abs/10.3233/WOR-152162",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision for autonomous vehicles: Problems, datasets and state of the art",
+        "abstract": "the robotics, intelligent vehicles, and computer vision communities by providing an extensive   for researchers in the field of autonomous vision and lowers the entry barrier for beginners",
+        "authors": [
+            "J Janai",
+            "F Güney",
+            "A Behl",
+            "A Geiger"
+        ],
+        "journal_conference_name": "… and trends® in computer …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2020",
+        "doi": "https://www.nowpublishers.com/article/Details/CGV-079",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Investigation of the dynamic characteristic of bridge structures using a computer vision method",
+        "abstract": "Two examples of field application for the computer vision method for bridge testing are  to  test the vision method. The results of the mechanical and vision methods were compared. After",
+        "authors": [
+            "P Olaszek"
+        ],
+        "journal_conference_name": "Measurement",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1999",
+        "doi": "https://www.sciencedirect.com/science/article/pii/S0263224199000068",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "reacTIVision: a computer-vision framework for table-based tangible interaction",
+        "abstract": "The markers are recognized and tracked by a computer vision algorithm optimized for the   dual-core computer will be more than sufficient to handle both the computer vision component",
+        "authors": [
+            "M Kaltenbrunner",
+            "R Bencina"
+        ],
+        "journal_conference_name": "… of the 1st international conference on …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2007",
+        "doi": "https://dl.acm.org/doi/abs/10.1145/1226969.1226983",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Do datasets have politics? Disciplinary values in computer vision dataset development",
+        "abstract": "computer vision datasets, from which we sampled 114 dataset publications across different  vision  We discuss how computer vision datasets authors value efficiency at the expense of",
+        "authors": [
+            "MK Scheuerman",
+            "A Hanna",
+            "E Denton"
+        ],
+        "journal_conference_name": "… of the ACM on Human-Computer …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2021",
+        "doi": "https://dl.acm.org/doi/abs/10.1145/3476058",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Advances in matrix manifolds for computer vision",
+        "abstract": "representation for some computer vision applications. In the  As we proceed in the computer  age, more and more abstract  to be instrumental in computer vision, we will summarize their",
+        "authors": [
+            "YM Lui"
+        ],
+        "journal_conference_name": "Image and Vision Computing",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2012",
+        "doi": "https://www.sciencedirect.com/science/article/pii/S0262885611000692",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Active computer vision by cooperative focus and stereo",
+        "abstract": "This book addresses an area of perception engineering which deals with constructive  processes. A model of the environment is analyzed using the information acquired from mUltiple",
+        "authors": [
+            "EP Krotkov"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2012",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=Xp34BwAAQBAJ&oi=fnd&pg=PA1&dq=computer+vision&ots=jXm03YEA1O&sig=IwHfAxS_GxTu1g72NPCdIJRXsP0",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Deep learning advances in computer vision with 3d data: A survey",
+        "abstract": "In this section, a brief review of the main techniques employed so far in 3D computer vision  is provided following the workflow depicted in Figure 1. More specifically, we start from works",
+        "authors": [
+            "A Ioannidou",
+            "E Chatzilari",
+            "S Nikolopoulos"
+        ],
+        "journal_conference_name": "ACM computing …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2017",
+        "doi": "https://dl.acm.org/doi/abs/10.1145/3042064",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Unrealcv: Virtual worlds for computer vision",
+        "abstract": "UnrealCV is a project to help computer vision researchers build virtual worlds using Unreal  Engine 4 (UE4). It extends UE4 with a plugin by providing (1) A set of UnrealCV commands",
+        "authors": [
+            "W Qiu",
+            "F Zhong",
+            "Y Zhang",
+            "S Qiao",
+            "Z Xiao"
+        ],
+        "journal_conference_name": "Proceedings of the 25th …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2017",
+        "doi": "https://dl.acm.org/doi/abs/10.1145/3123266.3129396",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Few-ShotLearning in Computer Vision: Practical Applications and Techniques",
+        "abstract": "paradigm shift in machine learning and computer vision, addressing the challenge of model   applications and techniques in the realm of computer vision. Few-shot learning is pivotal in",
+        "authors": [
+            "S Thota",
+            "S Chitta",
+            "VKR Vangoor",
+            "CS Ravi"
+        ],
+        "journal_conference_name": "Human-Computer …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2023",
+        "doi": "https://www.researchgate.net/profile/Subrahmanyasarma-Chitta-2/publication/389597360_Few-Shot_Learning_in_Computer_Vision_Practical_Applications_and_Techniques_Human-Computer_Interaction_Perspectives_Human-Computer_Interaction_Perspectives/links/67c8fa3732265243f582b31d/Few-Shot-Learning-in-Computer-Vision-Practical-Applications-and-Techniques-Human-Computer-Interaction-Perspectives-Human-Computer-Interaction-Perspectives.pdf",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Overview: Computer vision and machine learning for microstructural characterization and analysis",
+        "abstract": "Computer vision (CV) is the computer science field that focuses on quantifying the visual  information content of digital images.[14] A digital image is a numeric representation where",
+        "authors": [
+            "EA Holm",
+            "R Cohn",
+            "N Gao",
+            "AR Kitahara"
+        ],
+        "journal_conference_name": "… Materials Transactions A",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2020",
+        "doi": "https://link.springer.com/article/10.1007/S11661-020-06008-4",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Survey of computer vision algorithms and applications for unmanned aerial vehicles",
+        "abstract": "review of computer vision algorithms and vision-based  , and the evolution of computer  vision techniques have allowed an  Particularly, computer vision technologies integrated in",
+        "authors": [
+            "A Al-Kaff",
+            "D Martin",
+            "F Garcia",
+            "A de la Escalera"
+        ],
+        "journal_conference_name": "Expert Systems with …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2018",
+        "doi": "https://www.sciencedirect.com/science/article/pii/S0957417417306395",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision syndrome",
+        "abstract": "Improving the visual status of workers using computers results in greater productivity in the  workplace and improved visual comfort.  Individuals may also complain of double vision and",
+        "authors": [
+            "SA Randolph"
+        ],
+        "journal_conference_name": "Workplace health & safety",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2017",
+        "doi": "https://journals.sagepub.com/doi/abs/10.1177/2165079917712727",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "A review of computer vision–based structural health monitoring at local and global levels",
+        "abstract": "of computer vision–structural health monitoring along with some relevant literature that is  rapidly accumulating. The computer vision and applications of computer vision–structural health",
+        "authors": [
+            "CZ Dong",
+            "FN Catbas"
+        ],
+        "journal_conference_name": "Structural Health Monitoring",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2021",
+        "doi": "https://journals.sagepub.com/doi/abs/10.1177/1475921720935585",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "A real-time computer vision system for measuring traffic parameters",
+        "abstract": "For the problem of tracking vehicles on freeways using machine vision, existing systems  work well in free-flowing traffic. Traffic engineers, however, are more interested in monitoring",
+        "authors": [
+            "D Beymer",
+            "P McLauchlan",
+            "B Coifman"
+        ],
+        "journal_conference_name": "… on computer vision and …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1997",
+        "doi": "https://ieeexplore.ieee.org/abstract/document/609371/",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Front-end vision and multi-scale image analysis: multi-scale computer vision theory and applications, written in mathematica",
+        "abstract": "of front-end vision and computer vision with a strong perceptually based inspiration, and  the physical modeling of it. This book is written for both the computer vision scientist with an",
+        "authors": [
+            "BMH Romeny"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2008",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=JaMSBwAAQBAJ&oi=fnd&pg=PA5&dq=computer+vision&ots=C8tnnPGC7K&sig=rh5NrAUSshicZYugldVN3Z6Iszc",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Vista: A software environment for computer vision research",
+        "abstract": "the modular implementation and execution of computer vision algorithms. Because it is   use of arbitrary data types, such as are needed for many areas of computer vision research.",
+        "authors": [
+            "Pope",
+            "Lowe"
+        ],
+        "journal_conference_name": "… of IEEE Conference on Computer Vision and …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1994",
+        "doi": "https://ieeexplore.ieee.org/abstract/document/323895/",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Events-to-video: Bringing modern computer vision to event cameras",
+        "abstract": "This allows us to apply off-the-shelf computer vision  of applying standard computer vision  techniques to the reconstruc We apply off-theshelf computer vision algorithms that were built to",
+        "authors": [
+            "H Rebecq",
+            "R Ranftl",
+            "V Koltun"
+        ],
+        "journal_conference_name": "… on Computer Vision …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2019",
+        "doi": "http://openaccess.thecvf.com/content_CVPR_2019/html/Rebecq_Events-To-Video_Bringing_Modern_Computer_Vision_to_Event_Cameras_CVPR_2019_paper.html",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Understanding and preventing computer vision syndrome",
+        "abstract": "computer vision syndrome as a complex of eye and vision problems related to the activities  which stress the near vision  , or during, the use of the computer.4 It is characterized by visual",
+        "authors": [
+            "KY Loh",
+            "SC Redd"
+        ],
+        "journal_conference_name": "… family physician: the official journal of the …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2008",
+        "doi": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4170366/",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Remote sensing of vegetation structure using computer vision",
+        "abstract": "applying open-source computer vision algorithms to ordinary  An open-source computer  vision algorithm generated 3D  ) generated from both computer vision and LiDAR point clouds",
+        "authors": [
+            "JP Dandois",
+            "EC Ellis"
+        ],
+        "journal_conference_name": "Remote sensing",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2010",
+        "doi": "https://www.mdpi.com/2072-4292/2/4/1157",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Statistical models of appearance for medical image analysis and computer vision",
+        "abstract": "Statistical models of shape and appearance are powerful tools for interpreting medical images.  We assume a training set of images in which corresponding landmark points have been",
+        "authors": [
+            "TF Cootes",
+            "CJ Taylor"
+        ],
+        "journal_conference_name": "Medical Imaging 2001: Image …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2001",
+        "doi": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/4322/0000/Statistical-models-of-appearance-for-medical-image-analysis-and-computer/10.1117/12.431093.short",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Enabling video privacy through computer vision",
+        "abstract": "The algorithms in the analysis subsystem use computer vision techniques to “understand”  the video; they extract interesting objects, distinguish between background and foreground,",
+        "authors": [
+            "A Senior",
+            "S Pankanti",
+            "A Hampapur"
+        ],
+        "journal_conference_name": "IEEE Security & …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2005",
+        "doi": "https://ieeexplore.ieee.org/abstract/document/1439502/",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision techniques for construction safety and health monitoring",
+        "abstract": "computer vision for safety observation and inspections. We then present overall concepts,  specific methods and applications of computer vision  categorized by computer vision methods",
+        "authors": [
+            "JO Seo",
+            "SU Han",
+            "SH Lee",
+            "H Kim"
+        ],
+        "journal_conference_name": "Advanced Engineering Informatics",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2015",
+        "doi": "https://www.sciencedirect.com/science/article/pii/S1474034615000269",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Tensor methods in computer vision and deep learning",
+        "abstract": "computer vision. In this article, besides fundamental work in tensor learning for computer  vision,  learning architectures and their implications in vision applications. To further enable the",
+        "authors": [
+            "Y Panagakis",
+            "J Kossaifi",
+            "GG Chrysos"
+        ],
+        "journal_conference_name": "Proceedings of the …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2021",
+        "doi": "https://ieeexplore.ieee.org/abstract/document/9420085/",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "OpenCV computer vision with python",
+        "abstract": "OpenCV is an open source, cross-platform library that provides building blocks for computer  vision  Today, computer vision can reach consumers in many contexts via webcams, camera",
+        "authors": [
+            "J Howse"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2013",
+        "doi": "https://ecoimpact-ple.com/files/62/download/OpenCV%20Computer%20Vision%20with%20Python_%20Learn%20to%20capture%20videos,%20manipulate%20images,%20and%20track%20objects%20with%20Python%20using%20the%20OpenCV%20Library%20(%20PDFDrive%20).pdf",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Advances in computer vision-based civil infrastructure inspection and monitoring",
+        "abstract": "Computer vision  in computer vision techniques as they apply to the problem of civil  infrastructure condition assessment. In particular, relevant research in the fields of computer vision,",
+        "authors": [
+            "BF Spencer Jr",
+            "V Hoskere",
+            "Y Narazaki"
+        ],
+        "journal_conference_name": "Engineering",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2019",
+        "doi": "https://www.sciencedirect.com/science/article/pii/S2095809918308130",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "3-D computer vision in experimental mechanics",
+        "abstract": "Optical methods that give displacement or strain fields are now widely used in experimental  mechanics. Some of the methods can only measure in-plane displacements/strains on",
+        "authors": [
+            "JJ Orteu"
+        ],
+        "journal_conference_name": "Optics and lasers in engineering",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2009",
+        "doi": "https://www.sciencedirect.com/science/article/pii/S0143816607002084",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Geometric modeling and computer vision",
+        "abstract": "follows: Computer vision and geometric modeling are briefly introduced in broad, general  terms to explain why geometric matching is needed, why it is a key process in computer vision,",
+        "authors": [
+            "PJ Besl"
+        ],
+        "journal_conference_name": "Proceedings of the IEEE",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1988",
+        "doi": "https://ieeexplore.ieee.org/abstract/document/5966/",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Information theory in computer vision and pattern recognition",
+        "abstract": "This chapter introduces the application of information theory to the field of feature  extraction in computer vision. Feature extraction is a low-level step in many computer vision",
+        "authors": [
+            "FE Ruiz",
+            "PS Pérez",
+            "BI Bonev"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2009",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=yCNOErJ4ENwC&oi=fnd&pg=PR4&dq=computer+vision&ots=MeD7eBSYus&sig=cPLWptn11xHzQ7BpbFB1fa6kqmQ",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Meat quality evaluation by computer vision",
+        "abstract": "Computer vision has been recognized as the most promising  To develop a computer vision  system for objective meat  where we stand towards computer vision-based meat grading by",
+        "authors": [
+            "J Tan"
+        ],
+        "journal_conference_name": "Journal of food engineering",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2004",
+        "doi": "https://www.sciencedirect.com/science/article/pii/S0260877403001857",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "MATLAB and Octave functions for computer vision and image processing",
+        "abstract": "Peter's Functions for Computer Vision  However, please note I do not have the time to  provide an on-line vision problem solving service!  Proceedings of ACCV2002 The Fifth",
+        "authors": [
+            "PD Kovesi"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2000",
+        "doi": "https://www.peterkovesi.com/matlabfns/",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Domain adaptation in computer vision applications",
+        "abstract": "phones, vehicles, buildings, roadways, and computers allows for larger and more diverse   architectures, and methods addressing computer vision tasks beyond image categorization,",
+        "authors": [
+            "G Csurka"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2017",
+        "doi": "https://link.springer.com/content/pdf/10.1007/978-3-319-58347-1.pdf",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision classification of leaves from swedish trees",
+        "abstract": "project on computer vision classification. We will look at which descriptors are used, how  large their databases are, and other data that are relevant for a computer vision classification",
+        "authors": [
+            "O Söderkvist"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2001",
+        "doi": "https://www.diva-portal.org/smash/record.jsf?pid=diva2:303038",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Evaluation of quantization error in computer vision",
+        "abstract": "level , too , is a serious drawback for reliable computations in many areas of computer  vision. Due to the important role that digitization error plays in the field of computer vision, a",
+        "authors": [
+            "B Kamgar-Parsi",
+            "B Kamgar-Parsi"
+        ],
+        "journal_conference_name": "… Vision: Principles and Practice …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1993",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=5cO2DwAAQBAJ&oi=fnd&pg=PA293&dq=computer+vision&ots=h-PNHp6Ni-&sig=xQxuYskmIiG6ObwFbEm_qdij4lg",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "What uncertainties do we need in bayesian deep learning for computer vision?",
+        "abstract": "Traditionally it has been difficult to model epistemic uncertainty in computer vision, but with   aleatoric uncertainty in Bayesian deep learning models for vision tasks. For this we present",
+        "authors": [
+            "A Kendall",
+            "Y Gal"
+        ],
+        "journal_conference_name": "Advances in neural information …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2017",
+        "doi": "https://proceedings.neurips.cc/paper/2017/hash/2650d6089a6d640c5e85b2b88265dc2b-Abstract.html",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "A robust competitive clustering algorithm with applications in computer vision",
+        "abstract": "This paper addresses three major issues associated with conventional partitional clustering,  namely, sensitivity to initialization, difficulty in determining the number of clusters, and",
+        "authors": [
+            "H Frigui",
+            "R Krishnapuram"
+        ],
+        "journal_conference_name": "Ieee transactions on pattern …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2002",
+        "doi": "https://ieeexplore.ieee.org/abstract/document/765656/",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "A Bayesian computer vision system for modeling human interactions",
+        "abstract": "interest within the computer vision and machine learning  - or mid-level computer vision  system to detect and segment a  of AI/ machine learning and computer vision and presents",
+        "authors": [
+            "NM Oliver",
+            "B Rosario"
+        ],
+        "journal_conference_name": "IEEE transactions on …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2000",
+        "doi": "https://ieeexplore.ieee.org/abstract/document/868684/",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "A survey of computer vision-based human motion capture",
+        "abstract": "A comprehensive survey of computer vision-based human motion capture literature from the  past two decades is presented. The focus is on a general overview based on a taxonomy of",
+        "authors": [
+            "TB Moeslund",
+            "E Granum"
+        ],
+        "journal_conference_name": "Computer vision and image understanding",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2001",
+        "doi": "https://www.sciencedirect.com/science/article/pii/S107731420090897X",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Improved diffuse reflection models for computer vision",
+        "abstract": "about diffuse reflection by computer vision researchers is that  Recently, in computer vision  diffuse reflectance models have  important bearing on computer vision methods relying upon",
+        "authors": [
+            "LB Wolff",
+            "SK Nayar",
+            "M Oren"
+        ],
+        "journal_conference_name": "International Journal of Computer Vision",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1998",
+        "doi": "https://link.springer.com/article/10.1023/A:1008017513536",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Inspecting pizza topping percentage and distribution by a computer vision method",
+        "abstract": "Computer vision systems have been used increasingly in the food industry for quality   Therefore, in the current study, a computer vision method is developed to determine pizza",
+        "authors": [
+            "DW Sun"
+        ],
+        "journal_conference_name": "Journal of food engineering",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2000",
+        "doi": "https://www.sciencedirect.com/science/article/pii/S0260877400000248",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "A pyramid framework for early vision: multiresolutional computer vision",
+        "abstract": "and animal vision may find at least some computer vision  a comprehensive survey of  computer vision techniques and their  In computer vision, processes that decompose a scene into",
+        "authors": [
+            "JM Jolion",
+            "A Rosenfeld"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2012",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=UfrjBwAAQBAJ&oi=fnd&pg=PA1&dq=computer+vision&ots=1QPJR5NhRP&sig=e8DXrYtKASXwAWdiYoNBf2xFV88",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Markov random field modeling in computer vision",
+        "abstract": "in image processing and computer vision is to capture the  in image processing, computer  vision, applied statistics, and  of Markov random fields to computer vision problems such as",
+        "authors": [
+            "SZ Li"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2012",
+        "doi": "https://books.google.com/books?hl=en&lr=&id=nm-rCAAAQBAJ&oi=fnd&pg=PA1&dq=computer+vision&ots=QKsneR6Cwi&sig=Y2HKYCKKBFnpCCbml8AzGWZ952Y",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Introductory techniques for 3-D computer vision",
+        "abstract": "Introduction ..--'‘wo ima es' 1c-Until now, we have studied visual computations on single  images, OT id few; gen tfhe quired simultaneously. in this chapter, we broaden our",
+        "authors": [
+            "E Trucco",
+            "A Verri"
+        ],
+        "journal_conference_name": "NA",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1998",
+        "doi": "http://cseweb.ucsd.edu/classes/fa12/cse252A-a/hw4/trucco_verri_pp178-194.pdf",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Geodesic methods in computer vision and graphics",
+        "abstract": "This monograph reviews both the theory and practice of the numerical computation of geodesic  distances on Riemannian manifolds. The notion of Riemannian manifold allows one to",
+        "authors": [
+            "G Peyré",
+            "M Péchaud",
+            "R Keriven"
+        ],
+        "journal_conference_name": "… Trends® in Computer …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2010",
+        "doi": "https://www.nowpublishers.com/article/Details/CGV-029",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Gluoncv and gluonnlp: Deep learning in computer vision and natural language processing",
+        "abstract": "We present GluonCV and GluonNLP, the deep learning toolkits for computer vision and  natural language processing based on Apache MXNet (incubating). These toolkits provide state-",
+        "authors": [
+            "J Guo",
+            "H He",
+            "T He",
+            "L Lausen",
+            "M Li",
+            "H Lin",
+            "X Shi"
+        ],
+        "journal_conference_name": "Journal of Machine …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2020",
+        "doi": "http://www.jmlr.org/papers/v21/19-429.html",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "A review on machine learning styles in computer vision—techniques and future directions",
+        "abstract": ", and multi-view learning used in computer vision until now. There is a lack of  computer  vision. This research examines and evaluates machine learning applications in computer vision",
+        "authors": [
+            "SV Mahadevkar",
+            "B Khemani",
+            "S Patil",
+            "K Kotecha"
+        ],
+        "journal_conference_name": "Ieee …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2022",
+        "doi": "https://ieeexplore.ieee.org/abstract/document/9903420/",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision for behaviour-based safety in construction: A review and future directions",
+        "abstract": "In this paper we review the developments of computer vision studies that have been used to   with computer vision to support BBS. We also suggest that future computer-vision research",
+        "authors": [
+            "W Fang",
+            "PED Love",
+            "H Luo",
+            "L Ding"
+        ],
+        "journal_conference_name": "Advanced Engineering Informatics",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2020",
+        "doi": "https://www.sciencedirect.com/science/article/pii/S1474034619305531",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Propagating covariance in computer vision",
+        "abstract": "This paper describes how to propagate approximately additive random perturbations through  any kind of vision algorithm step in which the appropriate random perturbation model for",
+        "authors": [
+            "RM Haralick"
+        ],
+        "journal_conference_name": "International journal of pattern recognition and …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1996",
+        "doi": "https://www.worldscientific.com/doi/abs/10.1142/S0218001496000347",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Molecular surface recognition by a computer vision-based technique",
+        "abstract": "The clustered spheres surface representation is used as an input into our computer vision-motivated,  geometric hashing technique. This method is fully automated and is very efficient.",
+        "authors": [
+            "R Norel",
+            "D Fischer",
+            "HJ Wolfson"
+        ],
+        "journal_conference_name": "… , Design and Selection",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "1994",
+        "doi": "https://academic.oup.com/peds/article-abstract/7/1/39/1567514",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Everything you wanted to know about deep learning for computer vision but were afraid to ask",
+        "abstract": "Here we describe Computer Vision and Image Processing applications that use the  methods detailed in previous sections, by reviewing some of the recent literature on each topic.",
+        "authors": [
+            "MA Ponti",
+            "LSF Ribeiro",
+            "TS Nazare",
+            "T Bui"
+        ],
+        "journal_conference_name": "2017 30th SIBGRAPI …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2017",
+        "doi": "https://ieeexplore.ieee.org/abstract/document/8250222/",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision tools for 3D modelling in archaeology",
+        "abstract": "Computer Vision approach offers a great opportunity for archaeological survey since it can  be very easily used by existing Computer Vision  offered by Computer Vision interfaces for 3D",
+        "authors": [
+            "ML Brutto",
+            "P Meli"
+        ],
+        "journal_conference_name": "International Journal of Heritage in the …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2012",
+        "doi": "https://journals.sagepub.com/doi/abs/10.1260/2047-4970.1.0.1",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Deep reinforcement learning in computer vision: a comprehensive survey",
+        "abstract": "of deep reinforcement learning in computer vision. We start with  categories according to  their applications in computer vision, ie (i)  on deep reinforcement learning in computer vision.",
+        "authors": [
+            "N Le",
+            "VS Rathour",
+            "K Yamazaki",
+            "K Luu"
+        ],
+        "journal_conference_name": "Artificial Intelligence …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2022",
+        "doi": "https://link.springer.com/article/10.1007/s10462-021-10061-9",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision syndrome: A review",
+        "abstract": "about ocular and nonocular symptoms related to computer use. Eye-strain, tired eyes,   double vision reported by the visual display unit users was termed \"Computer Vision Syndrome\" (",
+        "authors": [
+            "J Bali",
+            "N Neeraj",
+            "RT Bali"
+        ],
+        "journal_conference_name": "Journal of clinical ophthalmology and …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2014",
+        "doi": "https://journals.lww.com/JCOR/fulltext/2014/02010/Computer_vision_syndrome__A_review.11.aspx",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Computer vision uncovers predictors of physical urban change",
+        "abstract": "We develop a computer vision method to measure changes in the physical appearances of   Our results show how computer vision techniques, in combination with traditional methods,",
+        "authors": [
+            "N Naik",
+            "SD Kominers",
+            "R Raskar",
+            "EL Glaeser"
+        ],
+        "journal_conference_name": "Proceedings of the …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2017",
+        "doi": "https://www.pnas.org/doi/abs/10.1073/pnas.1619003114",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Hand gesture recognition based on computer vision: a review of techniques",
+        "abstract": "[16] reviewed several methods, both sensor-based and vision of recent studies concerning  computer vision techniques with  and focus on computer vision techniques, where describe",
+        "authors": [
+            "M Oudah",
+            "A Al-Naji",
+            "J Chahl"
+        ],
+        "journal_conference_name": "journal of Imaging",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2020",
+        "doi": "https://www.mdpi.com/2313-433X/6/8/73",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Analysis of explainers of black box deep neural networks for computer vision: A survey",
+        "abstract": "explaining systems for Deep Neural Networks for Computer Vision tasks. We give a  comprehensive  about the selected explanator models; we focus on the category of Computer",
+        "authors": [
+            "V Buhrmester",
+            "D Münch",
+            "M Arens"
+        ],
+        "journal_conference_name": "Machine Learning and Knowledge …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2021",
+        "doi": "https://www.mdpi.com/2504-4990/3/4/48",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Overview of advanced computer vision systems for skin lesions characterization",
+        "abstract": "During the last years, computer-vision-based diagnosis systems have been used in several  hospitals and dermatology clinics, aiming mostly at the early detection of skin cancer, and",
+        "authors": [
+            "I Maglogiannis",
+            "CN Doukas"
+        ],
+        "journal_conference_name": "IEEE transactions on information …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2009",
+        "doi": "https://ieeexplore.ieee.org/abstract/document/4801738/",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Evaluation of pork color by using computer vision",
+        "abstract": "The objective of this study was to determine the potential of computer vision technology for  evaluating fresh pork loin color. Software was developed to segment pork loin images into",
+        "authors": [
+            "J Lu",
+            "J Tan",
+            "P Shatadal",
+            "DE Gerrard"
+        ],
+        "journal_conference_name": "Meat science",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2000",
+        "doi": "https://www.sciencedirect.com/science/article/pii/S0309174000000206",
+        "group_name": "Journalyze"
+    },
+    {
+        "title": "Deep learning based computer vision approaches for smart agricultural applications",
+        "abstract": "state-of-the-art computer vision technologies based on deep  Recent works in the area of  computer vision were analyzed in  The paper also discusses recent trends in computer vision",
+        "authors": [
+            "VG Dhanya",
+            "A Subeesh",
+            "NL Kushwaha"
+        ],
+        "journal_conference_name": "Artificial Intelligence in …",
+        "publisher": "PUBLICATION_SEARCH_SNIPPET",
+        "year": "2022",
+        "doi": "https://www.sciencedirect.com/science/article/pii/S2589721722000174",
         "group_name": "Journalyze"
     }
 ]

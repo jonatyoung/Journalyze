@@ -22,7 +22,19 @@ class Pipeline:
         self.model = BertModel.from_pretrained(self.model_name)  
         self.model.eval()  
         self.logger = self.setup_logging()  
+class Pipeline:  
+    def __init__(self, query, max_results=10):  
+        self.query = query  
+        self.max_results = max_results  
+        self.model_name = "bert-base-uncased"  
+        self.tokenizer = BertTokenizer.from_pretrained(self.model_name)  
+        self.model = BertModel.from_pretrained(self.model_name)  
+        self.model.eval()  
+        self.logger = self.setup_logging()  
 
+    def setup_logging(self):  
+        logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')  
+        return logging.getLogger(__name__)  
     def setup_logging(self):  
         logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')  
         return logging.getLogger(__name__)  

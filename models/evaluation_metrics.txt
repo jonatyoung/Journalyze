@@ -1,60 +1,81 @@
 BERTopic Model Evaluation Metrics
 ==============================
-Date: 2025-04-16 23:17:45
+Date: 2025-04-22 15:50:20
 
 General Metrics:
-- Coherence Score: 0.38095163802276544
-- Number of Topics: 2
-- Document Count: 310
-- Average Topic Size: 86.00
-- Outlier Percentage: 44.52%
+- Coherence Score: 0.38358452647680386
+- Number of Topics: 3
+- Document Count: 106
+- Average Topic Size: 32.00
+- Outlier Percentage: 9.43%
 
 Topic Distribution:
-- Outlier Topic (-1): 138 documents
-- Topic 0: 121 documents - Top words: deep, learning, application, computational, network
-- Topic 1: 51 documents - Top words: review, learning, deep, research, overview
+- Outlier Topic (-1): 10 documents
+- Topic 0: 41 documents - Top words: machine, learning, optimization, encyclopedia, reading
+- Topic 1: 28 documents - Top words: computer, deep, vision, learning, applied
+- Topic 2: 27 documents - Top words: review, brief, learning, machine, overview
 
 Detailed Topic Information:
 -------------------------
 Topic 0:
-  Name: 0_deep_learning_application_computational
-  Document Count: 121
-  Representation: ['deep', 'learning', 'application', 'computational', 'network', 'algorithm', 'machine', 'representation', 'understanding', 'new']
+  Name: 0_machine_learning_optimization_encyclopedia
+  Document Count: 41
+  Representation: ['machine', 'learning', 'optimization', 'encyclopedia', 'reading', 'basic', 'deep', '', '', '']
   Top Terms (with weights):
-    - deep: 0.2014
-    - learning: 0.1980
-    - application: 0.0551
-    - computational: 0.0468
-    - network: 0.0401
-    - algorithm: 0.0390
-    - machine: 0.0368
-    - representation: 0.0357
-    - understanding: 0.0345
-    - new: 0.0345
+    - machine: 0.2991
+    - learning: 0.2731
+    - optimization: 0.1250
+    - encyclopedia: 0.1250
+    - reading: 0.1250
+    - basic: 0.1250
+    - deep: 0.0198
+    - : 0.0000
+    - : 0.0000
+    - : 0.0000
   Representative Documents (sample):
-    1. machine learning deep learning method cybersecurity
-    2. computational method deep learning
-    3. machine learning deep learning
+    1. machine learning
+    2. machine learning
+    3. machine learning
 
 Topic 1:
-  Name: 1_review_learning_deep_research
-  Document Count: 51
-  Representation: ['review', 'learning', 'deep', 'research', 'overview', 'application', 'recent', 'challenge', 'detection', 'advance']
+  Name: 1_computer_deep_vision_learning
+  Document Count: 28
+  Representation: ['computer', 'deep', 'vision', 'learning', 'applied', 'physical', 'science', 'research', 'practical', 'machine']
   Top Terms (with weights):
-    - review: 0.2307
-    - learning: 0.1758
-    - deep: 0.1651
-    - research: 0.0989
-    - overview: 0.0877
-    - application: 0.0679
-    - recent: 0.0628
-    - challenge: 0.0603
-    - detection: 0.0471
-    - advance: 0.0471
+    - computer: 0.1776
+    - deep: 0.1776
+    - vision: 0.1776
+    - learning: 0.1461
+    - applied: 0.1404
+    - physical: 0.1404
+    - science: 0.1404
+    - research: 0.1404
+    - practical: 0.1309
+    - machine: 0.0984
   Representative Documents (sample):
-    1. review machine learning deep learning application
-    2. review deep learning research
-    3. review deep learning
+    1. applied research machine learning
+    2. computer vision
+    3. computer vision
+
+Topic 2:
+  Name: 2_review_brief_learning_machine
+  Document Count: 27
+  Representation: ['review', 'brief', 'learning', 'machine', 'overview', 'application', 'conference', 'prospect', 'law', 'international']
+  Top Terms (with weights):
+    - review: 0.1988
+    - brief: 0.1359
+    - learning: 0.1290
+    - machine: 0.1206
+    - overview: 0.1203
+    - application: 0.1073
+    - conference: 0.1033
+    - prospect: 0.1033
+    - law: 0.1033
+    - international: 0.1033
+  Representative Documents (sample):
+    1. brief review machine learning application
+    2. brief review machine learning application
+    3. brief review machine learning application
 
 
 Model Hyperparameters:

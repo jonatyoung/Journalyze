@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 from pydantic import BaseModel
 import logging
 import httpx
+import nltk
 from pipeline import Pipeline
 from datetime import datetime
 import nltk
@@ -13,6 +14,10 @@ nltk.download('stopwords')
 nltk.download('wordnet')
 
 load_dotenv()
+
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

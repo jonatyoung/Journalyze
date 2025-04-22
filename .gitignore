@@ -4,6 +4,7 @@ myenv
 myvenv
 python_env
 data
+mlruns
 
 # ignore for src directory
 src/journalyze.egg-info
