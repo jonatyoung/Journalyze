@@ -1,7 +1,19 @@
 import mlflow
 from train import BERTopicTrainer
+from dotenv import load_dotenv
+import os
 
-mlflow.set_tracking_uri(uri="http://127.0.0.1:9009")
+load_dotenv()
+
+host = os.getenv("MLFLOW_HOST")
+port = os.getenv("MLFLOW_PORT")
+mlflow_uri = f"http://{host}:{port}"
+
+db_host = os.getenv("DB_SERVICE_HOST")
+db_port = os.getenv("DB_SERVICE_PORT")
+db_endpoint = f"http://{db_host}:{db_port}/scraped-results"
+
+mlflow.set_tracking_uri(uri=mlflow_uri)
 mlflow.set_experiment("Journalyze experiment")
 
 trainer = BERTopicTrainer(
@@ -10,7 +22,7 @@ trainer = BERTopicTrainer(
     min_cluster_size=25
 )
 
-trainer.load_data(api_endpoint="http://127.0.0.1:8002/scraped-results")
+trainer.load_data(api_endpoint=db_endpoint)
 
 with mlflow.start_run():
     mlflow.log_param("n_neighbors", trainer.n_neighbors)
