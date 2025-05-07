@@ -18,3 +18,5 @@ pydantic
 python-dotenv
 gensim
 mlflow
+dvc
+dvc-gdrive

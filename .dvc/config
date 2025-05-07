@@ -1,0 +1,9 @@
+[core]
+    remote = storage
+['remote "storage"']
+    url = gdrive://1QpqRomRY1hTZPA3OfBa26P1iWZqiKY2b
+    gdrive_use_service_account = true
+    verify = true
+    gdrive_acknowledge_abuse = true
+    gdrive_service_account_user_email = dvc-600@journalyze-459011.iam.gserviceaccount.com
+    gdrive_service_account_json_file_path = C:\Users\ASUS\Downloads\dvc_key.json

@@ -1,0 +1,5 @@
+outs:
+- md5: 417b5e02cd7ce59a30f70e4ba16215e9
+  size: 2019
+  hash: md5
+  path: scraped_scholar_results.json

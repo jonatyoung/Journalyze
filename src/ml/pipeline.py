@@ -116,7 +116,7 @@ class Pipeline:
             scrap_results = scraper.scrape_google_scholar()  
             
             self.logger.info(f"Successfully scraped {len(scrap_results)} documents")  
-            self.save_to_json(scrap_results, 'scraped_scholar_results.json')  
+            self.save_to_json(scrap_results, 'src/data/scraped_scholar_results.json')  
 
             # preprocessing
             preprocessed_results = self.preprocess_publications(scrap_results)  
