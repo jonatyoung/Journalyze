@@ -1,5 +1,5 @@
 from mongo import connect_to_mongodb
-from fastapi import FastAPI, HTTPException, status
+from fastapi import FastAPI, HTTPException, status, Body
 from scrap_result_model import ScrapingResult, mongo_to_pydantic
 import uvicorn
 import os
@@ -29,7 +29,7 @@ def index():
     summary="Save the scraped data set",
     status_code=status.HTTP_201_CREATED
 )
-def insert_documents(documents: list[dict]):
+def insert_documents(documents: list[dict] = Body(...)):
     try:
         insert_result = mongo_collection.insert_many(documents)
         inserted_count = len(insert_result.inserted_ids)

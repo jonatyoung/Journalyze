@@ -11,17 +11,8 @@ from nltk.stem import WordNetLemmatizer
 from transformers import BertTokenizer, BertModel  
 import time  
 import random as rnd  
-from scrap import Scrap  # Ensure the Scrap class is in scrap.py  
+from scrap import Scrap
 
-class Pipeline:  
-    def __init__(self, query, max_results=10):  
-        self.query = query  
-        self.max_results = max_results  
-        self.model_name = "bert-base-uncased"  
-        self.tokenizer = BertTokenizer.from_pretrained(self.model_name)  
-        self.model = BertModel.from_pretrained(self.model_name)  
-        self.model.eval()  
-        self.logger = self.setup_logging()  
 class Pipeline:  
     def __init__(self, query, max_results=10):  
         self.query = query  
@@ -116,7 +107,7 @@ class Pipeline:
             scrap_results = scraper.scrape_google_scholar()  
             
             self.logger.info(f"Successfully scraped {len(scrap_results)} documents")  
-            self.save_to_json(scrap_results, 'src/data/scraped_scholar_results.json')  
+            self.save_to_json(scrap_results, 'scraped_scholar_results.json')  
 
             # preprocessing
             preprocessed_results = self.preprocess_publications(scrap_results)  

@@ -20,3 +20,4 @@ gensim
 mlflow
 dvc
 dvc-gdrive
+prometheus_client

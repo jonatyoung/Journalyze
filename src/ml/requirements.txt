@@ -11,3 +11,6 @@ httpx
 pydantic
 python-dotenv
 hf_xet
+prometheus_client
+mlflow
+gensim
